@@ -1,7 +1,6 @@
 footer {
   background-color: #002462;
-  padding: 3rem 0rem;
-
+  padding: 3rem 2rem;
   text-align: center;
 }
 
@@ -17,7 +16,7 @@ footer :nth-child(2) {
 }
 
 footer div a {
-  margin-left: 6rem;
+  margin-left: 1rem;
   text-decoration: none;
   color: white;
 }
@@ -32,5 +31,8 @@ footer div a:hover {
 }
 
 .footer_div_2 :first-child {
-  padding: 0 12rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
 }

@@ -38,12 +38,9 @@ const Home = () => {
       <Hsection7 />
       <Hsection8 />
       <Hsection9 />
+      <Hsection11 />
 
-      {/*
-
-      <Hsection11 /> */}
-
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
