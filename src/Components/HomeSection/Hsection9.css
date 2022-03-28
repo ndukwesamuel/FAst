@@ -1,0 +1,68 @@
+.Hsection9 {
+  padding: 0 5% 0 5%;
+}
+
+.Hsection9 > :first-child {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--prymary-bg-clr);
+  /* font-size: 3rem; */
+  font-weight: 900;
+}
+
+.Hsection9_display_felx,
+.Hsection9_sec5 .Hsection9_sec4 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ....... */
+
+.Hsection9_display_felx_P,
+.Hsection9_Sec_two > p {
+  font-size: 1.3rem;
+}
+.Hsection9_display_felx > div > img {
+  width: 32rem;
+}
+
+.Hsection9_join_live {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--prymary-bg-clr);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.Hsection9_sec4 :first-child {
+  margin-right: 2rem;
+}
+
+.Hsection9_sec4 img {
+  width: 33rem;
+  display: block;
+}
+
+.Hsection9_sec4_sec2 {
+  font-size: 1.3rem;
+}
+
+.Hsection9_sec4_sec2 :first-child {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.Hsection9_sec5 > div > p {
+  font-size: 1.5rem;
+  padding-right: 3rem;
+}
+
+.Hsection9_sec5 :last-child > img {
+  display: block;
+  width: 24rem;
+  margin: auto;
+}
+
+.Hsection9_sec6 > p {
+  font-size: 1.4rem;
+}

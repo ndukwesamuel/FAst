@@ -1,0 +1,90 @@
+.Hsection6 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Hsection6_flex_sec_1 > p {
+  text-align: center;
+  color: var(--font-col-darblue);
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 0 5rem;
+}
+
+.Hsection6_flex_sec_1_img {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.Hsection6_testimony {
+  display: none;
+}
+
+.Hsection6_join_live {
+  background-color: #e84d35;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+}
+
+.Hsection6_join_live :first-child {
+  font-weight: bold;
+}
+
+.Hsection6_flex_sec_2_h2 {
+  color: #1c4377;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Hsection6_flex_sec_2_ul {
+  font-size: 2rem;
+  color: #1c4377;
+  font-weight: bolder;
+}
+
+.Hsection6_Sec_2_flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Hsection6_Sec_2_flex_sec_one > ul {
+  font-size: 1.3rem;
+  color: #1c4377;
+  font-weight: bolder;
+}
+
+.Hsection6_Sec_2_flex_sec_one > ul > li {
+  margin-bottom: 1rem;
+}
+.Hsection6_Sec_three > h2 {
+  font-weight: bolder;
+  color: var(--prymary-bg-clr);
+  text-align: center;
+}
+
+.Hsection6_Sec_three_flex > div > img {
+  width: 90%;
+}
+
+.Hsection6_Sec_three img {
+  width: 1rem;
+}
+
+.Hsection6_Sec_three > ul {
+  font-size: 1.3rem;
+  color: #1c4377;
+  font-weight: bolder;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Hsection6_join_live {
+    width: 60%;
+    margin-left: 20%;
+  }
+}

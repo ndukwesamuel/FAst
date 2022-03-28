@@ -1,0 +1,154 @@
+.Hsection4 {
+  border: 3px solid red;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.Hsection4_chanll {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #ea5d47;
+}
+
+.Hsection4_chanll > div > img {
+  width: 30rem;
+  margin: auto;
+  display: block;
+}
+
+.Hsection4_chanll_div_2 :first-child {
+  font-size: 2rem;
+}
+
+.Hsection4_chanll_div_2 :nth-child(2) {
+  /* background-color: red; */
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: -1em;
+}
+.Hsection4_chanll_div_2 :last-child {
+  font-size: 3.2em;
+  font-weight: bolder;
+  background-color: var;
+}
+
+.Hsection4_div > p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: justify;
+  padding: 0 2rem;
+}
+
+.Hsection4_step_child {
+  background-color: #efefef;
+  margin-bottom: 1rem;
+}
+
+.Hsection4_step > div > h1 {
+  text-align: center;
+  color: #002462;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.Hsection4_step > div > h2 {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  text-align: center;
+  border: 0.001rem solid black;
+  border-left: none;
+  border-right: none;
+}
+.Hsection4_step > div > img {
+  width: 20rem;
+  display: block;
+  margin: auto;
+}
+
+.Hsection4_step_child_mission :first-child {
+  font-size: 3rem;
+  color: #002462;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Hsection4_step_child_mission :last-child {
+  font-size: 2em;
+  color: #002462;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Hsection4_step_Take_action :last-child {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.Hsection4_step_Take_action {
+  border: 3px solid #e43b2c;
+  color: #e43b2c;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.Hsection4_step_Take_action :first-child {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: -1rem;
+}
+
+.Hsection4_step_Take_action :last-child {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.Hsection4___ > div > p {
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+
+.Hsection4___ > div :nth-child(4) {
+  font-weight: bold;
+}
+.Hsection4___ > div :nth-child(5) {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.Hsection4___ > div :nth-child(6) {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-right: 1rem;
+}
+
+.Hsection4___ img {
+  width: 23rem;
+  display: block;
+  margin: auto;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .Hsection4___ img {
+    width: 30rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

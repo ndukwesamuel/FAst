@@ -1,0 +1,132 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+.Hsection2_flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.Hsection2_flex_1 > img {
+  display: none;
+}
+
+.Hsection2_flex_2 {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 2rem;
+}
+
+.Hsection2_flex_2_p2 {
+  font-size: 3em;
+  font-weight: bolder;
+  color: #1e4da7;
+}
+
+.Hsection2_flex_2_p1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: #002462;
+  word-spacing: -1rem;
+  margin-bottom: -1rem;
+}
+
+.Hsection2_flex_two {
+  font-size: 1.5rem;
+}
+
+.Hsection2_flex_two img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.Hsection2_section_3 {
+  background-color: #e4eff9;
+  margin-top: 2em;
+}
+
+.Hsection2_section_3 h2 {
+  color: #002462;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.Hsection2_section_3_form > div {
+  display: flex;
+}
+
+.Hsection2_section_3_form > div > input {
+  margin-right: 1rem;
+}
+.Hsection2_p {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.Hsection2_p_2 {
+  font-size: 3em;
+  font-weight: bolder;
+  color: #002462;
+  text-align: center;
+}
+
+.Hsection2_p_3 {
+  font-size: 1.3em;
+}
+
+.Hsection2_div_img > img {
+  margin: auto;
+  display: block;
+  width: 70%;
+}
+
+.Hsection2_div_img_Testimo {
+  width: 30rem;
+  margin: auto;
+  display: block;
+}
+
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .Hsection2_div_img_Testimo {
+    width: 50rem;
+    margin: auto;
+    display: block;
+  }
+
+  .Hsection2_section_3_form p {
+    font-size: 2rem;
+  }
+
+  .Hsection2_flex_1 > img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 2rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Hsection2_flex {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Hsection2_flex_1 > img {
+    width: 80%;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

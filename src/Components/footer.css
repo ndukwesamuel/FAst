@@ -1,0 +1,36 @@
+footer {
+  background-color: #002462;
+  padding: 3rem 0rem;
+
+  text-align: center;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+  width: 12rem;
+  margin-bottom: 1rem;
+}
+
+footer :nth-child(2) {
+  margin-bottom: 1rem;
+}
+
+footer div a {
+  margin-left: 6rem;
+  text-decoration: none;
+  color: white;
+}
+
+footer div a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer_div_2 {
+  color: white;
+}
+
+.footer_div_2 :first-child {
+  padding: 0 12rem;
+}

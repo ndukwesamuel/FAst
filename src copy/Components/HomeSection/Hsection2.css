@@ -1,0 +1,106 @@
+.Hsection2 {
+  padding-top: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Hsection2_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Hsection2_flex_1 img {
+  width: 15em;
+}
+
+.Hsection2_flex_2 {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  /* border: 2px solid red; */
+}
+
+.Hsection2_flex_2_p1 {
+  font-size: 4em;
+  font-weight: bolder;
+  color: #1e4da7;
+  margin-bottom: -4px;
+}
+.Hsection2_flex_2_p2 {
+  font-size: 6em;
+  font-weight: bold;
+  color: #002462;
+  margin-bottom: -1em;
+}
+
+/* this is the second section */
+.Hsection2_flex_two {
+  display: flex;
+  padding-top: 2em;
+}
+
+.Hsection2_flex_two div p {
+  /* width: 800px; */
+  font-size: 24px;
+}
+
+.Hsection2_flex_two div img {
+  width: 20em;
+}
+
+/* section 3 start here */
+.Hsection2_section_3 {
+  background-color: #e4eff9;
+  margin-top: 2em;
+}
+
+.Hsection2_section_3 h2 {
+  color: #002462;
+  font-weight: bolder;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.Hsection2_section_3_form span {
+  font-size: 1.5em;
+}
+
+.Hsection2_section_3_form {
+  /* display: flex; */
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2em;
+}
+
+.Hsection2_section_3_form p {
+  display: inline;
+  font-size: 25px;
+}
+.Hsection2_section_3_form input {
+  margin-bottom: 1em;
+}
+
+.Hsection2_p {
+  font-size: 3em;
+  word-spacing: -3px;
+  /* font-weight: bolder; */
+}
+.Hsection2_p_2 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: #002462;
+  word-spacing: -5px;
+  text-align: center;
+}
+
+.Hsection2_p_3 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.Hsection2_div_img_Testimo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 35em;
+}
