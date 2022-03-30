@@ -10,6 +10,8 @@ import Hsection9 from "../Components/HomeSection/Hsection9";
 
 import Footer from "../Components/Footer";
 import Hsection11 from "../Components/HomeSection/Hsection11";
+import Hang from "../Components/HomeSection/Hang";
+
 
 const url =
   "https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json";
@@ -17,11 +19,13 @@ const url =
 const Home = () => {
   return (
     <>
-          
 
-      <Hsection3/>
 
-         <Hsection4 />
+      <Hsection3 />
+         <Hang />
+
+
+
 
 
 

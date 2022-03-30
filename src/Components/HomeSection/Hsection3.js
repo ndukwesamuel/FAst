@@ -1,4 +1,5 @@
 import board from "../../images/bord2.png";
+import OFA_Stack from '../../images/OFA_Stack.png'
 import "./Hsection3.css";
 
 const Hsection3 = () => {
@@ -9,73 +10,12 @@ const Hsection3 = () => {
           Then In Exchange For That Tiny $100 Investment, You Get ALL Of This:
         </h1>
 
-        <div className="Hsection3_div_border">
+        <div className="Hsection3_div_border container">
           <img src={board} alt="" />
 
           {/* first div start here */}
-          <div className="Hsection3_list">
-            <ul>
-              <li>
-                30th days of video coaching / mission From Russell Brun ($197
-                Value)
-              </li>
 
-              <li>
-                30th days of video coaching / mission From Russell Brun ($197
-                Value)
-              </li>
-
-              <li>
-                30th days of video coaching / mission From Russell Brun ($197
-                Value)
-              </li>
-              <li>
-                30th days of video coaching / mission From Russell Brun ($197
-                Value)
-              </li>
-            </ul>
-
-            <div className="Hsection3_button_div">
-              <div>
-                {" "}
-                <button className="btn"> Bonus</button>
-                <span>
-                  {" "}
-                  30th days of video coaching mission From Russell Bru ($197
-                  Value)
-                </span>
-              </div>
-
-              <div>
-                {" "}
-                <button className="btn"> Bonus</button>
-                <span>
-                  {" "}
-                  30th days of video coaching mission From Russell Bru ($197
-                  Value)
-                </span>
-              </div>
-
-              <div>
-                {" "}
-                <button className="btn"> Bonus</button>
-                <span>
-                  {" "}
-                  30th days of video coaching mission From Russell Bru ($197
-                  Value)
-                </span>
-              </div>
-              <div>
-                {" "}
-                <button className="btn"> Bonus</button>
-                <span>
-                  {" "}
-                  30th days of video coaching mission From Russell Bru ($197
-                  Value)
-                </span>
-              </div>
-            </div>
-          </div>
+          <img className="img-fluid  Hsection3_div_border_OFA  " src={OFA_Stack} alt="" />
 
           <div>
             <p className="Hsection3_value">
@@ -107,7 +47,7 @@ const Hsection3 = () => {
           </div>
         </div>
 
-        <div className="Hsection3_information">
+        <div className="Hsection3_information container">
           <p> Need More Information Before You Make Your Decision...? </p>
 
           <p>
