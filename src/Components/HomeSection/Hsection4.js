@@ -12,7 +12,7 @@ const Hsection4 = () => {
         {/* display flex */}
         <div className="Hsection4_chanll">
           <div>
-            <img src={ofa_small_min} alt="" />
+            <img className="img-fluid" src={ofa_small_min} alt="" />
           </div>
 
           <div className="Hsection4_chanll_div_2">
@@ -32,11 +32,11 @@ const Hsection4 = () => {
         </div>
 
         {/* display flex */}
-        <div className="container">
+        <div className="container-fluid">
           <div className="Hsection4_step row">
             <div className="Hsection4_step_child col-lg-4">
               <h1>Step #1</h1>
-              <img src={step} alt="" />
+              <img className="img-fluid" src={step} alt="" />
 
               <h2 className=""> "The Strategy"</h2>
 
@@ -60,7 +60,7 @@ const Hsection4 = () => {
 
             <div className="Hsection4_step_child col-lg-4">
               <h1>Step #2</h1>
-              <img src={step} alt="" />
+              <img className="img-fluid" src={step} alt="" />
 
               <h2> "The Strategy"</h2>
 
@@ -84,7 +84,7 @@ const Hsection4 = () => {
 
             <div className="Hsection4_step_child col-lg-4">
               <h1>Step #3</h1>
-              <img src={step} alt="" />
+              <img className="img-fluid" src={step} alt="" />
 
               <h2> "The Strategy"</h2>
 
@@ -159,8 +159,8 @@ const Hsection4 = () => {
           </div>
 
           <div className="col-lg-6">
-            <img src={david} alt="" />
-            <img src={david} alt="" />
+            <img className="img-fluid" src={david} alt="" />
+            <img className="img-fluid" src={david} alt="" />
           </div>
         </div>
 

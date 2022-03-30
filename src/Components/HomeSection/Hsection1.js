@@ -24,7 +24,7 @@ const Hsection1 = () => {
                   The Next 'ONE FUNNEL AWAY' Challenge Starts On Apr 4th...
                 </p>
                 <div>
-                  <img className="Hsection1_bord2_img" src={bord2} alt="" />
+                  <img className="Hsection1_bord2_img img-fluid" src={bord2} alt="" />
                 </div>
 
                 <p>Registration Ends Apr 3rd At 10PM ET! </p>

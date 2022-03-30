@@ -10,7 +10,7 @@ const Hsection5 = () => {
       {/* this is a flex div */}
       <div className="Hsection5_section_1">
         <div>
-          <img src={ofa_small_min} alt="" />
+          <img className="img-fluid" src={ofa_small_min} alt="" />
         </div>
 
         <div className="Hsection5_section_1_sec_2">

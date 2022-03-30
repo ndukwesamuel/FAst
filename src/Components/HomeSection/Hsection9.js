@@ -30,7 +30,7 @@ const Hsection9 = () => {
           </div>
 
           <div>
-            <img src={OFA_Testimonials_1_1_min} alt="" />
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />
           </div>
         </div>
 
@@ -82,8 +82,8 @@ const Hsection9 = () => {
 
         <div className="Hsection9_sec4">
           <div>
-            <img src={OFA_Testimonials_1_1_min} alt="" />
-            <img src={OFA_Testimonials_1_1_min} alt="" />
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />
           </div>
 
           <div className="Hsection9_sec4_sec2">
@@ -155,8 +155,8 @@ const Hsection9 = () => {
           </div>
 
           <div>
-            <img src={OFA_Testimonials_1_1_min} alt="" srcset="" />
-            <img src={OFA_Testimonials_1_1_min} alt="" srcset="" />
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" srcset="" />
+            <img src={OFA_Testimonials_1_1_min} className="img-fluid" alt="" srcset="" />
           </div>
         </div>
 

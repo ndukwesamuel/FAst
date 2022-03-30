@@ -68,6 +68,10 @@ Variables
   /* overflow-x: hidden; */
 }
 
+
+div{
+  border: 2px dotted orangered;
+}
 body {
   background-color: var(--clr-white);
 }
@@ -120,7 +124,7 @@ body {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .btn_live {
-    margin-left: 5rem;
+    margin-left: 0rem;
   }
   .btn_live_p1 {
     font-size: 3em;

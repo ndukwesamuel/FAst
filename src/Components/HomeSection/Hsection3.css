@@ -74,11 +74,11 @@
 }
 
 .Hsection3_join_Challenge {
-  margin: 0 3em 0 3em;
+  margin: 0 1rem 0 1rem;
 }
 
 .Hsection3_join_Challenge_p1 {
-  font-size: 2em;
+  font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
   /* margin-bottom: -10px; */
@@ -109,6 +109,16 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+  .Hsection3_join_Challenge_p1 {
+  font-size: 2rem;
+}
+
+.Hsection3_join_Challenge_p2 {
+    font-size: 1rem;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
 }
 
 /* // Large devices (desktops, 992px and up) */

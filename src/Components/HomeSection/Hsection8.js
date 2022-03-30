@@ -13,7 +13,7 @@ const Hsection8 = () => {
       <div className="Hsection8">
         <div className="Hsection8_dispay_flex">
           <div className="Hsection8_dispay_flex_sec1">
-            <img src={two} alt="" />
+            <img className="img-fluid" src={two} alt="" />
           </div>
 
           <div className="Hsection8_flex_item_2">

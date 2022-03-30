@@ -15,6 +15,7 @@ const Hsection2 = () => {
           </div>
           {/* create a border line for  */}
           <div className="Hsection2_flex_2">
+
             <p className="Hsection2_flex_2_p1"> Freedom Is Just </p>
             <p className="Hsection2_flex_2_p2"> One Funnel Away </p>
           </div>
@@ -56,7 +57,7 @@ const Hsection2 = () => {
 
           {/* this is for the img */}
           <div>
-            <img src={russell_dark_new} alt="" />
+            <img className="img-fluid" src={russell_dark_new} alt="" />
           </div>
         </section>
         {/* this is the form  */}
@@ -147,7 +148,7 @@ const Hsection2 = () => {
         </div>
         <div>
           <div className="">
-            <img className="Hsection2_div_img_Testimo" src={Testimo} alt="" />
+            <img className=" Hsection2_div_img_Testimo  img-fluid" src={Testimo} alt="" />
           </div>
         </div>
       </div>
