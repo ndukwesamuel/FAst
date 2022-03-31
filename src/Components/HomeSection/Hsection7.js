@@ -9,26 +9,10 @@ import "./Hsection7.css";
 const Hsection7 = () => {
   return (
     <>
-      <div className="Hsection7">
+      <div className="Hsection7 container">
         <div className=" Hsection7_Sec_one">
-          <div>
-            <div>
-              <img src={OFA_Testimonials_1_1_min} alt="" />
-            </div>
-
-            <div>
-              <img src={OFA_Testimonials_1_1_min} alt="" />
-            </div>
-            <div>
-              <img src={OFA_Testimonials_1_1_min} alt="" />
-            </div>
-            <div>
-              <img src={OFA_Testimonials_1_1_min} alt="" />
-            </div>
-
-            <div>
-              <img src={OFA_Testimonials_1_1_min} alt="" />
-            </div>
+          <div className="Hsection7_Sec_one_img">
+          <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />      <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />      <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />      <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />  
           </div>
         </div>
 
@@ -36,7 +20,7 @@ const Hsection7 = () => {
           <p> The One Funnel Away Challenge Is Different!</p>
 
           <div>
-            <img src={triangle2} alt="" />
+            <img className="img-fluid" src={triangle2} alt="" />
           </div>
 
           <div className="Hsection7_Sec_two_p">
@@ -64,7 +48,7 @@ const Hsection7 = () => {
       </div>
 
       <div className="Hsection7_sec">
-        <img src={board} alt="" />
+        <img className="img-fluid" src={board} alt="" />
         <div className="Hsection3_join_Challenge btn_live  ">
           <p className="Hsection3_join_Challenge_p1">
             {" "}
@@ -77,7 +61,7 @@ const Hsection7 = () => {
           </p>
         </div>
 
-        <div className=" Hsection7_sec_p">
+        <div className=" Hsection7_sec_p container">
           <p>
             As you can probably see, getting access to the 'One Funnel Away'
             challenge is like having me, and my entire OFA Expert Consulting

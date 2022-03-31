@@ -17,17 +17,18 @@
 }
 
 .Hsection2_flex_2_p2 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bolder;
   color: #1e4da7;
+  margin-bottom: 0;
 }
 
 .Hsection2_flex_2_p1 {
-  font-size: 4em;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #002462;
-  word-spacing: -1rem;
   margin-bottom: -1rem;
+
 }
 
 .Hsection2_flex_two {
@@ -38,6 +39,15 @@
   display: block;
   margin: auto;
   width: 50%;
+}
+
+.Hsection2_flex_two :nth-child(3){
+  font-weight: bold;
+}
+
+.Hsection2_flex_two > div > p
+ {
+  margin-top: 1rem;
 }
 
 .Hsection2_section_3 {
@@ -66,10 +76,11 @@
 }
 
 .Hsection2_p_2 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: bolder;
   color: #002462;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .Hsection2_p_3 {
@@ -88,6 +99,11 @@
   display: block;
 }
 
+form input[type="checkbox"] {
+  width: 3rem;
+  height: 1.4rem;
+}
+
 @media (min-width: 576px) {
 }
 
@@ -99,8 +115,14 @@
     display: block;
   }
 
-  .Hsection2_section_3_form p {
+  .Hsection2_section_3_form label {
     font-size: 2rem;
+  }
+
+
+  form input[type="checkbox"] {
+    width: 3rem;
+    height:2rem;
   }
 
   .Hsection2_flex_1 > img {
@@ -109,18 +131,61 @@
     width: 30%;
     margin-top: 2rem;
   }
+
+  .Hsection2_flex_2_p1{
+    font-size: 3rem;
+  }
+
+  .Hsection2_flex_2_p2{
+    font-size: 4rem;
+
+
+  }
+
+  .Hsection2_p_3{
+    font-size: 1.5rem;
+  }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+
+  
   .Hsection2_flex {
     flex-direction: row;
     justify-content: space-around;
   }
 
+  .Hsection2_flex_two {
+    display: flex;
+    font-size: 1.5rem;
+  }
+
   .Hsection2_flex_1 > img {
     width: 80%;
   }
+
+  /* Hide checkboxes input[type="checkbox"] { position: absolute; opacity: 0; z-index: -1; } */
+
+  .Hsection2_flex_2_p2{
+    border-bottom: 2px solid black;
+  }
+  .Hsection2_flex_two  > div > img{
+    width: 30rem;
+    margin-top: 1rem;
+  }
+
+  .Hsection2_flex_2{
+    border-bottom: 0;
+    margin-top: 5rem;
+  }
+
+  .Hsection2_section_3 h2{
+      padding: 0 6rem;
+  }
+
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */

@@ -30,8 +30,35 @@ footer div a:hover {
   color: white;
 }
 
-.footer_div_2 :first-child {
+.hanging{
+  position: sticky;
+  bottom: 0;
 }
+
+.hanging_tab{
+  text-align: center;
+  background-color: #EA5C46;
+  color: white;
+  border-radius: 0.4rem;
+
+    
+
+}
+
+.hanging_tab :first-child{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+.hanging_tab :last-child{
+  padding: 0 10%;
+}
+
+/* 
+
+ */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

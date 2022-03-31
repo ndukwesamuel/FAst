@@ -24,7 +24,32 @@ const Hsection1 = () => {
                   The Next 'ONE FUNNEL AWAY' Challenge Starts On Apr 4th...
                 </p>
                 <div>
-                  <img className="Hsection1_bord2_img" src={bord2} alt="" />
+                  <img className="Hsection1_bord2_img img-fluid" src={bord2} alt="" />
+                </div>
+
+                <div className=" Hsection1_count_down">
+
+                    <div className="Hsection1_count_down_flex_item">
+                      <div>O4</div>
+                      <p>Days</p>
+                    </div>
+
+                    <div className="Hsection1_count_down_flex_item">
+                      <div>14</div>
+                      <p>hours</p>
+                    </div>
+
+                    <div className="Hsection1_count_down_flex_item">
+                      <div> 34 </div>
+                      <p>minute</p>
+                    </div>
+
+                    <div className="Hsection1_count_down_flex_item">
+                      <div>56</div>
+                      <p>Seconds</p>
+                    </div>
+
+                    
                 </div>
 
                 <p>Registration Ends Apr 3rd At 10PM ET! </p>
@@ -35,9 +60,10 @@ const Hsection1 = () => {
                 </p>
 
                 <div className="btn btn_live">
-                  <p className="btn_live_p1">Join The Challenge Now!</p>I Want
+                  <p className="btn_live_p1">Join The Challenge Now!</p>
+                    <p className="btn_live_p2">  I Want
                   Daily Training, LIVE Coaching and Accountability, From Day 1
-                  to Day 30
+                  to Day 30</p>
                 </div>
               </div>
             </div>

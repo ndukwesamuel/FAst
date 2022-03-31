@@ -7,7 +7,7 @@ import "./Hsection2.css";
 const Hsection2 = () => {
   return (
     <>
-      <div className="Hsection2">
+      <div className="Hsection2 container">
         {/*  i'm to dispaly flex in this part  */}
         <div className="Hsection2_flex">
           <div className="Hsection2_flex_1">
@@ -15,19 +15,22 @@ const Hsection2 = () => {
           </div>
           {/* create a border line for  */}
           <div className="Hsection2_flex_2">
+
             <p className="Hsection2_flex_2_p1"> Freedom Is Just </p>
             <p className="Hsection2_flex_2_p2"> One Funnel Away </p>
           </div>
         </div>
         {/*  i'm to dispaly flex in this part 2  for the econd section */}
         <section className="Hsection2_flex_two">
-          <div>
+          <div className="container">
             <p>
               <span>From</span>: Russell Brunson
             </p>
+
             <p>
-              <span>Where</span>: Boise, Idaho{" "}
+              <span>Where</span>: Boise, Idaho
             </p>
+
             <p>
               What does <span> 'One Funnel Away' mean for you...?</span>
             </p>
@@ -56,65 +59,55 @@ const Hsection2 = () => {
 
           {/* this is for the img */}
           <div>
-            <img src={russell_dark_new} alt="" />
+            <img className="img-fluid" src={russell_dark_new} alt="" />
           </div>
         </section>
         {/* this is the form  */}
-        <section className="Hsection2_section_3">
+        <section className="Hsection2_section_3 container" >
           <h2> Please Check All Of The Questions Where Your Answer Is YES! </h2>
           <form className="Hsection2_section_3_form" action="">
-            <div>
-              <input type="checkbox" name="" id="" />
-              <p>
-                Do you want to grow your business online, but you have NO IDEA
-                where to start?
-              </p>
-            </div>
 
-            <div>
-              <input type="checkbox" name="" id="" />
-              <p>
-                {" "}
-                Do you want to grow your business online, but you have NO IDEA
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+  <label class="form-check-label" for="defaultCheck1">
+  Do you want to grow your business online, but you have NO IDEA
                 where to start?
-              </p>
-            </div>
+  </label>
+</div>
 
-            <div>
-              <input type="checkbox" name="" id="" />
-              <p>
-                {" "}
-                Do you want to grow your business online, but you have NO IDEA
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+  <label class="form-check-label" for="defaultCheck1">
+  Do you want to grow your business online, but you have NO IDEA
                 where to start?
-              </p>
-            </div>
+  </label>
+</div>
 
-            <div>
-              <input type="checkbox" name="" id="" />
-              <p>
-                {" "}
-                Do you want to grow your business online, but you have NO IDEA
-                where to ?
-              </p>
-            </div>
-
-            <div>
-              <input type="checkbox" name="" id="" />
-              <p>
-                {" "}
-                Do you want to grow your business online, but you have NO IDEA
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+  <label class="form-check-label" for="defaultCheck1">
+  Do you want to grow your business online, but you have NO IDEA
                 where to start?
-              </p>
-            </div>
+  </label>
+</div>
 
-            <div>
-              <input type="checkbox" name="" id="" />
-              <p>
-                {" "}
-                Do you want to grow your business online, but you have NO IDEA
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+  <label class="form-check-label" for="defaultCheck1">
+  Do you want to grow your business online, but you have NO IDEA
                 where to start?
-              </p>
-            </div>
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+  <label class="form-check-label" for="defaultCheck1">
+  Do you want to grow your business online, but you have NO IDEA
+                where to start?
+  </label>
+</div>
+
+          
           </form>
         </section>
         {/* this is the end of th form  */}
@@ -141,13 +134,13 @@ const Hsection2 = () => {
           With the One Funnel Away Challenge, we could easily charge $1,000 for
           the full 30 day challenge…{" "}
         </p>
-        <p className=""> Probably even $2,000, or more, but...</p>
+        <p className="Hsection2_p_3"> Probably even $2,000, or more, but...</p>
         <div>
           <p className=" Hsection2_p_2"> All You Pay Is $100! </p>
         </div>
         <div>
           <div className="">
-            <img className="Hsection2_div_img_Testimo" src={Testimo} alt="" />
+            <img className=" Hsection2_div_img_Testimo  img-fluid" src={Testimo} alt="" />
           </div>
         </div>
       </div>

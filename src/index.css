@@ -68,8 +68,9 @@ Variables
   /* overflow-x: hidden; */
 }
 
+
 body {
-  background-color: var(--clr-white);
+  background-color: white;
 }
 
 .section_one {
@@ -80,10 +81,16 @@ body {
 .text_center {
   text-align: center;
 }
+p{
+  margin: 0;
+  padding: 0;
+}
 
 .sec_one {
   text-align: center;
   margin: 0 1rem 0 1rem;
+  font-size: 1rem;
+  padding-top: 2rem;
 }
 
 .Hsection1_row_1 {
@@ -104,23 +111,54 @@ body {
   background-color: hsl(209, 61%, 16%);
 }
 
-.Hsection1_div > p {
+.Hsection1_count_down{
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  text-align: center;
+
+}
+.Hsection1_count_down_flex_item >div{
+  background-color: transparent;
+  border-radius: 50%;
+  width:4rem;
+  height: 4rem;
+  color: white;
+  font-size: 2rem;
+  padding-left: 0rem;
+  margin-top: 1rem;
+  border: 3px solid white;
   text-align: center;
 }
+
+.Hsection1_div > p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.Hsection1_P{
+  font-weight: bolder;
+}
+
+
 
 .btn_live {
   background-color: var(--btn-clr);
   color: var(--clr-white);
 }
 .btn_live_p1 {
-  font-size: 2em;
+  font-size: 1.3em;
   font-weight: bolder;
+}
+
+.btn_live_p2 {
+  font-size: 0.7em;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .btn_live {
-    margin-left: 5rem;
+    margin-left: 0rem;
   }
   .btn_live_p1 {
     font-size: 3em;
@@ -155,10 +193,33 @@ body {
   .btn_live_p1 {
     font-size: 2rem;
   }
+
+  .sec_one {
+
+    font-size: 2.3rem;
+    padding: 0 2rem;
+    font-weight: 900;
+  }
+
+  .Hsection1_row_1  > p {
+    padding: 0 1rem;
+    
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .sec_one {
+    font-size: 3rem;
+    padding: 0 8rem;
+    color: red;
+ 
+  }
+
+  .Hsection1_row_1  > p {
+    font-size: 2rem;
+    
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */

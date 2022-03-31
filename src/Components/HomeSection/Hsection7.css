@@ -1,7 +1,3 @@
-.Hsection7 {
-  display: flex;
-  flex-direction: column;
-}
 
 .Hsection7_Sec_one img {
   width: 90%;
@@ -9,9 +5,18 @@
   display: block;
 }
 
+
+.Hsection7_Sec_one_img{
+  margin-top: 1rem;
+}
+.Hsection7_Sec_one_img > img{
+margin: auto;
+display: block;
+}
+
 .Hsection7_Sec_two > :first-child {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   color: var(--prymary-bg-clr);
 }
@@ -26,16 +31,14 @@
 
 .Hsection7_Sec_two_p {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
   /* background-color: red; */
 }
 
-.Hsection7_Sec_two_p :last-child {
-  color: var(--prymary-bg-clr);
-  font-size: 2rem;
-  font-weight: 900;
-}
 
+.Hsection7_Sec_two_p > p {
+  margin-top: 1rem;
+}
 .Hsection7_sec > img {
   width: 30rem;
   margin: auto;
@@ -44,14 +47,16 @@
   /* padding: 2rem; */
 }
 
-.Hsection7 > div {
-  margin-left: 3rem;
-}
 
 .Hsection7_sec_p {
   font-size: 1rem;
   text-align: justify;
-  padding: 0 3rem;
+}
+
+.Hsection7_sec_p > p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -66,12 +71,18 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .Hsection7 {
+    display: flex;
     flex-direction: row;
   }
+.Hsection7_Sec_two_p{
+  font-size: 2rem;
+}
 
   .Hsection7_Sec_one > div > div {
     margin-right: -35rem;
   }
+
+
 
   .Hsection7_Sec_one > div > div > img {
     margin: 0;
@@ -85,5 +96,9 @@
     display: block;
     margin-bottom: 2rem;
     /* padding: 2rem; */
+  }
+
+  .Hsection7_sec_p > p{
+    font-size: 2rem;
   }
 }
