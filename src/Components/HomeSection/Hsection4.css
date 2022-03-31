@@ -1,7 +1,5 @@
 .Hsection4 {
-  border: 3px solid red;
-  margin-left: 5%;
-  margin-right: 5%;
+  border:#e43b2c solid 5px;
 }
 
 .Hsection4_chanll {
@@ -61,7 +59,7 @@
   margin-top: 1rem;
   padding: 1rem 0;
   text-align: center;
-  border: 0.001rem solid black;
+  border: 0.00001rem solid black;
   border-left: none;
   border-right: none;
 }
@@ -150,7 +148,6 @@
 @media (min-width: 992px) {
   .Hsection4_chanll{
     flex-direction: row;
-    justify-content: space-around;
   }
 
   .Hsection4_chanll_div_2{
@@ -164,12 +161,40 @@
 }
 
   .Hsection4_chanll_div_2 :nth-child(2) {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: -2rem;
   }
 
 .Hsection4_chanll_div_2 :last-child {
-  font-size: 4rem;
+
+  font-size: 7rem;}
+
+.Hsection4_chanll > div > img {
+  margin-top: 2rem;
+
+
 }
+
+
+
+.Hsection4_chanll_div_2{
+  text-align: justify;
+}
+
+.Hsection4_step_child{
+  border-right: white 10px solid;
+}
+
+.Hsection4_step_Take_action{
+  margin: 0 2%;
+
+}
+
+.Hsection4 {
+  padding:  3%;
+
+}
+
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
