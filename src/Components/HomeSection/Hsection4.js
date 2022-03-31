@@ -178,7 +178,7 @@ const Hsection4 = () => {
             I Want Daily Training, LIVE Coaching and Accountability, From Day 1
             to Day 30
           </p>
-        </div>
+        </div>  
 
     </div>
 

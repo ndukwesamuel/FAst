@@ -11,14 +11,17 @@ const Hsection6 = () => {
   return (
     <>
       <div className="Hsection6">
+
         <div className="Hsection6_flex">
+
           <div className="Hsection6_flex_sec_1">
+
             <p>
               <span>Bonus #1</span>
               The “30 Days” 550 Page Digital EBook ($97 Value)
             </p>
 
-            <img className="Hsection6_flex_sec_1_img" src={daysbook} alt="" />
+            <img className="Hsection6_flex_sec_1_img img-fluid" src={daysbook} alt="" />
 
             <div className="Hsection6_join_live ">
               <p> Join The Challenge Now!</p>
@@ -28,20 +31,20 @@ const Hsection6 = () => {
               </p>
             </div>
 
-            <div className="">
-              <img className="Hsection6_testimony" src={testimony} alt="" />
-            </div>
+            <div className="Hsection6_flex_img">
 
-            <div className="">
-              <img className="Hsection6_testimony" src={testimony} alt="" />
-            </div>
+              <img className="img-fluid Hsection6_testimony" src={testimony} alt="" />
+        
+              <img className="img-fluid  Hsection6_testimony" src={testimony} alt="" />
+          
 
-            <div className="">
-              <img className="Hsection6_testimony" src={testimony} alt="" />
+              <img className="img-fluid Hsection6_testimony" src={testimony} alt="" />
             </div>
+          
+
           </div>
 
-          <div className="Hsection6_flex_sec_2">
+          <div className="Hsection6_flex_sec_2 container">
             <p>
               Recently, I asked 30 of my ‘Two Comma Club’ members (those who
               have generated over $1 Million+ inside their ClickFunnels funnel)
@@ -71,14 +74,15 @@ const Hsection6 = () => {
               unknown newbie.
             </p>
 
-            <div className="Hsection6_flex_sec_2_what_To_do">
-              <h2 className="Hsection6_flex_sec_2_h2"> What Would You Do?</h2>
+  <div className="Hsection6_flex_sec_2_what_To_do">
 
-              <p className="Hsection6_flex_sec_2_h2">
+              <h2 className=""> What Would You Do?</h2>
+
+              <p className="">
                 (From Day 1 To Day 30) If You Knew You Only Had ONE FUNNEL To
                 Make Back Your Millions?”
               </p>
-            </div>
+    </div>
 
             <p>
               Each of them replied to my email with a brilliant detailed 30-day
@@ -133,11 +137,14 @@ const Hsection6 = () => {
               back on track!
             </p>
           </div>
+
         </div>
 
         <hr />
 
-        <div className="Hsection6_Sec_2_flex">
+
+        <div className="Hsection6_Sec_2_flex container">
+
           <div className="Hsection6_Sec_2_flex_sec_one">
             <p>
               Each day of the One Funnel Away Challenge, you’ll be given tasks
@@ -177,20 +184,21 @@ const Hsection6 = () => {
 
             <div>
               <img
-                className="Hsection6_flex_sec_1_img "
+                className=" img-fluid Hsection6_flex_sec_1_img "
                 src={onepage_computer_min}
                 alt=""
               />
             </div>
           </div>
 
-          <div className="Hsection6_flex_sec_1">
+          <div className="Hsection6_flex_sec_1 ">
+
             <p>
               <span>Bonus #1</span>
               The “30 Days” 550 Page Digital EBook ($97 Value)
             </p>
 
-            <img className="Hsection6_flex_sec_1_img" src={one_pager} alt="" />
+            <img className="img-fluid  Hsection6_flex_sec_1_img" src={one_pager} alt="" />
 
             <div className="Hsection6_join_live ">
               <p> Join The Challenge Now!</p>
@@ -198,30 +206,35 @@ const Hsection6 = () => {
                 I Want Daily Training, LIVE Coaching and Accountability, From
                 Day 1 to Day 30
               </p>
+       
             </div>
 
-            <div className="">
-              <img className="Hsection6_testimony" src={testimony} alt="" />
+            <div className="Hsection6_flex_sec_1_img_block"> 
+                <img className="img-fluid" src={testimony} alt="" />
+                <img className="img-fluid" src={testimony} alt="" />
+                <img className="img-fluid" src={testimony} alt="" />
+                <img className="img-fluid" src={testimony} alt="" />
+                <img className="img-fluid" src={testimony} alt="" />
+
+
             </div>
 
-            <div className="">
-              <img className="Hsection6_testimony" src={testimony} alt="" />
-            </div>
+        </div>
 
-            <div className="">
-              <img className="Hsection6_testimony" src={testimony} alt="" />
-            </div>
-          </div>
         </div>
 
         <hr />
+
+
+
+
 
         <div className="Hsection6_Sec_three">
           <h2>These Bonuses Are ALL Inside The One Funnel Away Challenge...</h2>
 
           <div className="Hsection6_Sec_three_flex">
             <div>
-              <img src={testimony} alt="" />
+              <img className="img-fluid" src={testimony} alt="" />
             </div>
             <div className="Hsection6_Sec_three">
               <ul>
@@ -248,7 +261,16 @@ const Hsection6 = () => {
             </p>
           </div>
         </div>
-      </div>
+
+
+      
+
+
+
+        </div>
+
+
+
     </>
   );
 };

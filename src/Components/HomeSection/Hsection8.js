@@ -12,11 +12,11 @@ const Hsection8 = () => {
       {/* this is for the flex */}
       <div className="Hsection8">
         <div className="Hsection8_dispay_flex">
-          <div className="Hsection8_dispay_flex_sec1">
+          <div className="Hsection8_dispay_flex_sec1 container">
             <img className="img-fluid" src={two} alt="" />
           </div>
 
-          <div className="Hsection8_flex_item_2">
+          <div className="Hsection8_flex_item_2 container">
             <p className="Hsection8_flex_first_p">
               This Challenge Is NOT For Everyone!
             </p>

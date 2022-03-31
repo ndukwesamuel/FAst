@@ -10,9 +10,12 @@ import "./Hsection9.css";
 const Hsection9 = () => {
   return (
     <>
-      <div className="Hsection9">
+      <div className="Hsection9 container">
         <p> So, What's The Catch...?</p>
 
+        <div className="Hsection9_flex"> 
+          
+          
         <div className="Hsection9_display_felx">
           <div className="Hsection9_display_felx_P">
             <p>
@@ -22,10 +25,10 @@ const Hsection9 = () => {
             </p>
 
             <p>
-              {" "}
+            
               That's it... that's our "evil" ulterior motive - for you to have
               success so you keep using our software that is giving you that
-              success.{" "}
+              success.
             </p>
           </div>
 
@@ -64,13 +67,11 @@ const Hsection9 = () => {
 
           <p>Does that sound more then fair? :)</p>
         </div>
+          </div> 
         <div>
-          <p>
-            Join The Challenge Now! I Want Daily Training, LIVE Coaching and
-            Accountability, From Day 1 to Day 30
-          </p>
+  
 
-          <div className="Hsection6_join_live ">
+          <div className="Hsec9_live ">
             <p> Join The Challenge Now!</p>
             <p>
               I Want Daily Training, LIVE Coaching and Accountability, From Day
@@ -120,18 +121,17 @@ const Hsection9 = () => {
             </p>
           </div>
         </div>
-
-        <div className="Hsection6_join_live ">
-          <p> Join The Challenge Now!</p>
-          <p>
-            I Want Daily Training, LIVE Coaching and Accountability, From Day 1
-            to Day 30
-          </p>
-        </div>
+        <div className="Hsec9_live ">
+            <p> Join The Challenge Now!</p>
+            <p>
+              I Want Daily Training, LIVE Coaching and Accountability, From Day
+              1 to Day 30
+            </p>
+          </div>
         <p className="Hsection9_join_live"> Why Time Is Of The Essence...</p>
 
         <div className="Hsection9_sec5">
-          <div>
+          <div className="container">
             <p>
               I guarantee that if you participate in the challenge, show up to
               the daily live calls, implement what you learn, by the time the
@@ -159,19 +159,18 @@ const Hsection9 = () => {
             <img src={OFA_Testimonials_1_1_min} className="img-fluid" alt="" srcset="" />
           </div>
         </div>
+        <div className="Hsec9_live ">
+            <p> Join The Challenge Now!</p>
+            <p>
+              I Want Daily Training, LIVE Coaching and Accountability, From Day
+              1 to Day 30
+            </p>
+          </div>
 
-        <div className="Hsection6_join_live ">
-          <p> Join The Challenge Now!</p>
-          <p>
-            I Want Daily Training, LIVE Coaching and Accountability, From Day 1
-            to Day 30
-          </p>
-        </div>
         <p className="Hsection9_join_live"> Here's What To Do Next...</p>
 
-        <div className="Hsection9_sec6">
+        <div className="Hsection9_sec6 container">
           <p>
-            {" "}
             From here it's just finalizing the details. Click on the button
             below and create your account, then we can finally get started!{" "}
           </p>
