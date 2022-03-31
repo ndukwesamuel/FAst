@@ -126,6 +126,59 @@ const Hsection4 = () => {
           <p> Every Day For 30 Days </p>
         </div>
 
+        <div className="row Hsection4___">
+          <div className="col-lg-6">
+            <div className="container">
+            <p> Yes, there will be some prep-work involved…</p>
+
+            <p> Yes, there will be homework…</p>
+
+            <p>
+              But every day, you’ll be taking steps toward building your
+              business!{" "}
+            </p>
+
+            <p> Our only question for you is…</p>
+
+            <p> “Do YOU Have What It Takes?”</p>
+
+            <p>
+              By the time the challenge is over, you will have a funnel that is
+              LIVE!
+            </p>
+
+            <p>
+              {" "}
+              Not only will we help you figure out what that funnel is, but
+              you’ll have it created and FINISHED by the end of the challenge!
+            </p>
+
+            <p>
+              {" "}
+              And, you’ll be able to launch it to the world, generate leads, and
+              turn those leads into customers who buy from you again and again.
+            </p>
+
+            </div>
+          </div>
+
+          <div className="col-lg-6">
+            <img className="img-fluid" src={david} alt="" />
+            <img className="img-fluid" src={david} alt="" />
+          </div>
+        </div>
+
+        <div className="Hsection3_join_Challenge btn_live  ">
+          <p className="Hsection3_join_Challenge_p1">
+            {" "}
+            Join The Challenge Now!{" "}
+          </p>
+
+          <p className="Hsection3_join_Challenge_p2">
+            I Want Daily Training, LIVE Coaching and Accountability, From Day 1
+            to Day 30
+          </p>
+        </div>
 
     </div>
 

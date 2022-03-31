@@ -106,9 +106,10 @@
   font-weight: 900;
 }
 
-.Hsection4___ > div > p {
-  padding-left: 3rem;
-  font-size: 1.2rem;
+.Hsection4___  p {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .Hsection4___ > div :nth-child(4) {
@@ -118,7 +119,7 @@
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
-  padding-right: 1rem;
+  color: var(--prymary-bg-clr);  
 }
 
 .Hsection4___ > div :nth-child(6) {
@@ -193,6 +194,14 @@
 .Hsection4 {
   padding:  3%;
 
+}
+
+.Hsection3_join_Challenge_p1{
+  font-size: 5rem;
+}
+
+.Hsection3_join_Challenge_p2{
+  font-size: 1.2rem;
 }
 
 }
