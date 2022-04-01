@@ -156,7 +156,7 @@
             <img className="img-fluid" src={david} alt="" />
             <img className="img-fluid" src={david} alt="" />
           </div>
-        </div>
+        </div> */}
 
         <div className="Hsection3_join_Challenge btn_live  ">
           <p className="Hsection3_join_Challenge_p1">
@@ -168,6 +168,6 @@
             I Want Daily Training, LIVE Coaching and Accountability, From Day 1
             to Day 30
           </p>
-        </div>   */}
+        </div>  
 
     </div>

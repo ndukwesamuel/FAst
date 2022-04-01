@@ -73,11 +73,15 @@ display: block;
   .Hsection7 {
     display: flex;
     flex-direction: row;
+  
   }
 .Hsection7_Sec_two_p{
   font-size: 2rem;
 }
-
+  
+  .Hsection7_sec__{
+margin: 0 15%;
+  }
   .Hsection7_Sec_one > div > div {
     margin-right: -35rem;
   }

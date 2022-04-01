@@ -8,8 +8,13 @@ const Hsection1 = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-7 Hsection1_row_1 ">
-              <video className="Hsection1_vidoe_div" controls>
+              {/* <video className="Hsection1_vidoe_div" controls>
                 <source src={med} type="video/mp4" />
+              </video> */}
+
+              <video className="img-fluid Hsection1_vidoe_div" controls>
+                <source src="/Media/meditationss.mp4" type="video/mp4" />
+              
               </video>
 
               <p>

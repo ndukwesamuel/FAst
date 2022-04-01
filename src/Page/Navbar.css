@@ -1,0 +1,17 @@
+.navbar{
+  background-color: var(--prymary-bg-clr) !important;
+}
+.nav-link{
+  color: white !important;
+
+}
+.nav_img{
+  display: none;
+}
+
+@media (min-width: 768px) { 
+  .nav_img{
+    display: block;
+    width: 10rem;
+  }
+}
