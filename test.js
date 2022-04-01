@@ -1,18 +1,7 @@
-import board from "../../images/bord2.png";
-import step from "../../images/step.png";
-import david from "../../images/david.png";
-import ofa_small_min from "../../images/ofa_small-min.png";
 
-import "./Hsection4.css";
+   <div className="Hsection4 ">
 
-const Hsection4 = () => {
-  return (
-    <>
-
-  
-<div className="Hsection4 ">
-
-<div className="Hsection4_chanll">
+   {/* <div className="Hsection4_chanll">
           <div className="container">
             <img className="img-fluid" src={ofa_small_min} alt="" />
           </div>
@@ -23,20 +12,19 @@ const Hsection4 = () => {
             <p>'One Funnel Away' </p>
             <p> CHALLENGE...</p>
           </div>
-        </div>
-
-
-        
+        </div> */}
+{/* 
         <div className="Hsection4_div">
           <p>
             Led by Trainer Russell Brunson and The ‘One Funnel Away’ Consulting
             Team, this challenge is designed to help you Customize and IMPLEMENT
             your first (or next) funnel in just 30 days…
           </p>
-        </div>  
+        </div>   */}
 
-
-        <div className="container">
+        
+        {/* display flex */}
+        {/* <div className="container">
           <div className="Hsection4_step row">
             <div className="Hsection4_step_child col-lg-4">
               <h1>Step #1</h1>
@@ -111,11 +99,9 @@ const Hsection4 = () => {
               </p>
             </div>
           </div>
-        </div>
-        
+        </div>   */}
 
-
-        
+{/* 
         <div className="Hsection4_step_child_mission">
           <p> Here Is Your Mission, </p>
           <p>(Should You Choose To Accept This Challenge…)</p>
@@ -128,14 +114,9 @@ const Hsection4 = () => {
             You,
           </p>
           <p> Every Day For 30 Days </p>
-        </div>
+        </div> */}
 
-
-
-
-
-    <div className="container-fluid"> 
-        <div className="row Hsection4___">
+        {/* <div className="row Hsection4___">
           <div className="col-lg-6">
             <div className="container">
             <p> Yes, there will be some prep-work involved…</p>
@@ -177,10 +158,7 @@ const Hsection4 = () => {
           </div>
         </div>
 
-
-      </div>
-
-      <div className="Hsection3_join_Challenge btn_live  ">
+        <div className="Hsection3_join_Challenge btn_live  ">
           <p className="Hsection3_join_Challenge_p1">
             {" "}
             Join The Challenge Now!{" "}
@@ -190,14 +168,6 @@ const Hsection4 = () => {
             I Want Daily Training, LIVE Coaching and Accountability, From Day 1
             to Day 30
           </p>
-        </div>  
+        </div>   */}
 
-
-  </div>
-
-   
-    </>
-  );
-};
-
-export default Hsection4;
+    </div>

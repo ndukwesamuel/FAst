@@ -1,7 +1,3 @@
-.Hsection4 {
-  border:#e43b2c solid 5px;
-}
-
 .Hsection4_chanll {
   display: flex;
   flex-direction: column;
@@ -10,7 +6,7 @@
 }
 
 .Hsection4_chanll > div > img {
-  width: 30rem;
+  /* width: 30rem; */
   margin: auto;
   display: block;
 }
@@ -22,7 +18,6 @@
 }
 
 .Hsection4_chanll_div_2 :nth-child(2) {
-  /* background-color: red; */
   font-size: 2em;
   font-weight: bold;
   margin-bottom: -1rem;
@@ -36,17 +31,20 @@
   text-align: center;
 }
 
+
 .Hsection4_div > p {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 600;
   text-align: justify;
   padding: 0 2rem;
 }
+
 
 .Hsection4_step_child {
   background-color: #efefef;
   margin-bottom: 1rem;
 }
+
 
 .Hsection4_step > div > h1 {
   text-align: center;
@@ -63,6 +61,7 @@
   border-left: none;
   border-right: none;
 }
+
 .Hsection4_step > div > img {
   width: 20rem;
   display: block;
@@ -76,6 +75,7 @@
   text-align: center;
 }
 
+
 .Hsection4_step_child_mission :last-child {
   font-size: 2em;
   color: #002462;
@@ -87,6 +87,7 @@
   font-weight: bolder;
   font-size: 1rem;
 }
+
 
 .Hsection4_step_Take_action {
   border: 3px solid #e43b2c;
@@ -106,11 +107,14 @@
   font-weight: 900;
 }
 
+
 .Hsection4___  p {
   font-size: 1.3rem;
   text-align: justify;
   margin-bottom: 1rem;
 }
+
+
 
 .Hsection4___ > div :nth-child(4) {
   font-weight: bold;
@@ -213,3 +217,4 @@
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 }
+
