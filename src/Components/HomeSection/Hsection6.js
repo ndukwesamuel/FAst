@@ -229,7 +229,7 @@ const Hsection6 = () => {
 
 
 
-        <div className="Hsection6_Sec_three">
+        <div className="Hsection6_Sec_three container">
           <h2>These Bonuses Are ALL Inside The One Funnel Away Challenge...</h2>
 
           <div className="Hsection6_Sec_three_flex">
