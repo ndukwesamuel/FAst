@@ -1,4 +1,3 @@
-import med from "../../media/meditation.mp4";
 import bord2 from "../../images/bord2.png";
 
 const Hsection1 = () => {
@@ -8,8 +7,11 @@ const Hsection1 = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-7 Hsection1_row_1 ">
-              <video className="Hsection1_vidoe_div" controls>
-                <source src={med} type="video/mp4" />
+           
+
+              <video className="img-fluid Hsection1_vidoe_div" controls>
+                <source src="/Media/meditationss.mp4" type="video/mp4" />
+              
               </video>
 
               <p>

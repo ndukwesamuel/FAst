@@ -49,10 +49,10 @@ const Hsection7 = () => {
 
       <div className="Hsection7_sec">
         <img className="img-fluid" src={board} alt="" />
-        <div className="Hsection3_join_Challenge btn_live  ">
+        <div className="Hsection7_sec__ Hsection3_join_Challenge btn_live  ">
           <p className="Hsection3_join_Challenge_p1">
             {" "}
-            Join The Challenge Now!{" "}
+            Join  The Challenge Now!{" "}
           </p>
 
           <p className="Hsection3_join_Challenge_p2">

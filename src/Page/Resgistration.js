@@ -1,8 +1,10 @@
 import { useState } from "react/cjs/react.development";
 import Footer_img from "../images/one-funnel-away_logo_funnel.png";
+
+import How from "../images/headline_ofa2-min.png"
 import "./Resgistration.css";
 
-import med from "../media/meditation.mp4";
+
 import LoginForm from "./LoginForm";
 
 const Resgistration = () => {
@@ -25,7 +27,7 @@ const Resgistration = () => {
     <>
       <div className="Resgistration">
         <div className="Resgistration_logo_div">
-          <img src={Footer_img} alt="" />
+          <img className="img-fluid" src={Footer_img} alt="" />
         </div>
 
         <section className="Resgistration_section">
@@ -35,19 +37,22 @@ const Resgistration = () => {
 
           <div className="Resgistration_section_two">
             <div className="Resgistration_section_two_p">
-              <p> "How would You like Us to Hold You by The Hand As You </p>
+              {/* <p> "How would You like Us to Hold You by The Hand As You </p>
 
               <p> Launch Your First </p>
 
-              <p> (OR Next) Funnel ! " </p>
+              <p> (OR Next) Funnel ! " </p> */}
+
+              <img className="img-fluid" src={How} alt="" />
             </div>
             <div className="Resgistration_section_two_video">
-              <video className="" controls>
-                <source src={med} type="video/mp4" />
+              <video className="img-fluid" controls>
+                <source src="/Media/meditationss.mp4" type="video/mp4" />
+              
               </video>
             </div>
 
-            <p>Do You Accept ?</p>
+            <p className="do_acc">Do You Accept ?</p>
 
             <div>
               <p> JOin The Challenge Now </p>

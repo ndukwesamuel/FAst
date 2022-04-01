@@ -143,6 +143,7 @@ font-size: 1.5rem;
   justify-content: space-around;
 }
 
+
 .Hsection9_sec4 > div >img{
 width: 70rem ;
 }
@@ -158,4 +159,12 @@ width: 70rem ;
 .Hsection9 > :first-child{
   font-size: 3.5rem;
 }
+
+
+.Hsec9_live{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
 }

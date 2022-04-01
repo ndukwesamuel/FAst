@@ -50,16 +50,17 @@ const LoginForm = () => {
             />
           </div>
 
-          <div>
+          <div className="the_button">
             <button onClick={HandelSub} class="btn btn-primary">
-              Login
+              dont need it 
             </button>
-
-            <a href="">
+            <button onClick={HandelSub} class="btn btn-primary">
+            Login 
+            </button>
               <button onClick={forgetPas} class="btn btn-primary">
                 Forgot Password?
               </button>
-            </a>
+         
             <p>
               **Please be sure to register with the same email address you used
               to purchase!**

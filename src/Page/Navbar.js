@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
-
+import Footer_img from "../images/one-funnel-away_logo_funnel.png";
+import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            <img className="img-fluid nav_img" src={Footer_img} alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -32,43 +33,7 @@ const Navbar = () => {
                   Member Login
                 </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
+     
             </ul>
           </div>
         </div>
