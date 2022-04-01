@@ -5,7 +5,6 @@ import How from "../images/headline_ofa2-min.png"
 import "./Resgistration.css";
 
 
-import med from "../media/meditation.mp4";
 import LoginForm from "./LoginForm";
 
 const Resgistration = () => {
