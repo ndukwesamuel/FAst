@@ -11,7 +11,7 @@ const Hsection8 = () => {
     <>
       {/* this is for the flex */}
       <div className="Hsection8">
-        <div className="Hsection8_dispay_flex">
+        <div className="Hsection8_dispay_flex container">
           <div className="Hsection8_dispay_flex_sec1 container">
             <img className="img-fluid" src={two} alt="" />
           </div>
