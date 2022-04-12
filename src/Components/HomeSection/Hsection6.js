@@ -1,47 +1,56 @@
-import "./Hsection6.css";
-import board from "../../images/bord2.png";
-import step from "../../images/step.png";
-import daysbook from "../../images/30daysbook.jpg";
-import onepage_computer_min from "../../images/onepage_computer-min.png";
-import two from "../../images/two.png";
-import one_pager from "../../images/one_pager-graphic-min.png";
-import testimony from "../../images/OFA-Testimonials_1.1-min.png";
+import './Hsection6.css'
+import board from '../../images/bord2.png'
+import step from '../../images/step.png'
+import daysbook from '../../images/30daysbook.jpg'
+import onepage_computer_min from '../../images/onepage_computer-min.png'
+import two from '../../images/two.png'
+import one_pager from '../../images/one_pager-graphic-min.png'
+import testimony from '../../images/OFA-Testimonials_1.1-min.png'
 
 const Hsection6 = () => {
   return (
     <>
       <div className="Hsection6">
-
         <div className="Hsection6_flex">
-
-          <div className="Hsection6_flex_sec_1">
-
+          <div className="Hsection6_flex_sec_1 container">
             <p>
               <span>Bonus #1</span>
               The “30 Days” 550 Page Digital EBook ($97 Value)
             </p>
 
-            <img className="Hsection6_flex_sec_1_img img-fluid" src={daysbook} alt="" />
+            <img
+              className="Hsection6_flex_sec_1_img img-fluid"
+              src={daysbook}
+              alt=""
+            />
 
             <div className="Hsection6_join_live ">
               <p> Join The Challenge Now!</p>
               <p>
                 I Want Daily Training, LIVE Coaching and Accountability, From
-                Day 1 to Day 30{" "}
+                Day 1 to Day 30{' '}
               </p>
             </div>
 
             <div className="Hsection6_flex_img">
+              <img
+                className="img-fluid Hsection6_testimony"
+                src={testimony}
+                alt=""
+              />
 
-              <img className="img-fluid Hsection6_testimony" src={testimony} alt="" />
-        
-              <img className="img-fluid  Hsection6_testimony" src={testimony} alt="" />
-          
+              <img
+                className="img-fluid  Hsection6_testimony"
+                src={testimony}
+                alt=""
+              />
 
-              <img className="img-fluid Hsection6_testimony" src={testimony} alt="" />
+              <img
+                className="img-fluid Hsection6_testimony"
+                src={testimony}
+                alt=""
+              />
             </div>
-          
-
           </div>
 
           <div className="Hsection6_flex_sec_2 container">
@@ -74,15 +83,14 @@ const Hsection6 = () => {
               unknown newbie.
             </p>
 
-  <div className="Hsection6_flex_sec_2_what_To_do">
-
+            <div className="Hsection6_flex_sec_2_what_To_do">
               <h2 className=""> What Would You Do?</h2>
 
               <p className="">
                 (From Day 1 To Day 30) If You Knew You Only Had ONE FUNNEL To
                 Make Back Your Millions?”
               </p>
-    </div>
+            </div>
 
             <p>
               Each of them replied to my email with a brilliant detailed 30-day
@@ -98,11 +106,23 @@ const Hsection6 = () => {
 
             <div className="Hsection6_flex_sec_2_ul">
               <ul>
-                <li> No Product…</li>
-                <li> No List…</li>
-                <li>No Traffic...Running Errands...</li>
-                <li> No Reputation...</li>
-                <li> And No Funnel...</li>
+                <li>
+                  <i class="uil uil-check done"></i> No Product…
+                </li>
+                <li>
+                  {' '}
+                  <i class="uil uil-check done"></i> No List…
+                </li>
+                <li>
+                  <i class="uil uil-check done"></i> No Traffic Running
+                </li>
+                <li>
+                  <i class="uil uil-check done"></i> No Reputation...
+                </li>
+                <li>
+                  {' '}
+                  <i class="uil uil-check done"></i> And No Funnel...
+                </li>
               </ul>
             </div>
 
@@ -137,14 +157,11 @@ const Hsection6 = () => {
               back on track!
             </p>
           </div>
-
         </div>
 
         <hr />
 
-
         <div className="Hsection6_Sec_2_flex container">
-
           <div className="Hsection6_Sec_2_flex_sec_one">
             <p>
               Each day of the One Funnel Away Challenge, you’ll be given tasks
@@ -165,20 +182,26 @@ const Hsection6 = () => {
 
             <ul>
               <li>
-                ​A CHECKLIST of tasks or reminders that need to be completed
-                that day
+                <i class="uil uil-check done"></i>
+                <b>​A CHECKLIST of tasks</b> or reminders that need to be
+                completed that day
               </li>
               <li>
-                ​Plenty of space for journaling and brainstorming your ideas,
+                <i class="uil uil-check done"></i>
+                <b>
+                  ​Plenty of space for journaling and brainstorming your ideas,
+                </b>
                 and answering key thought-provoking questions
               </li>
               <li>
-                ​The video training links that correspond with each day’s
-                mission
+                <i class="uil uil-check done"></i>
+                <b> ​The video training links</b> that correspond with each
+                day’s mission
               </li>
               <li>
-                ​And, any extra resource links you’ll need to complete the day’s
-                tasks
+                <i class="uil uil-check done"></i>
+                <b>And, any extra resource links</b>
+                you’ll need to complete the day’s tasks
               </li>
             </ul>
 
@@ -192,42 +215,39 @@ const Hsection6 = () => {
           </div>
 
           <div className="Hsection6_flex_sec_1 ">
-
             <p>
               <span>Bonus #1</span>
-              The “30 Days” 550 Page Digital EBook ($97 Value)
+              The “30 Days” 550 Page Digital EBook
             </p>
+            <p>($97 Value)</p>
 
-            <img className="img-fluid  Hsection6_flex_sec_1_img" src={one_pager} alt="" />
+            <img
+              className="img-fluid  Hsection6_flex_sec_1_img"
+              src={one_pager}
+              alt=""
+            />
 
-            <div className="Hsection6_join_live ">
-              <p> Join The Challenge Now!</p>
-              <p>
+            <div class="Hsection3_join_Challenge  hec_6_change  ">
+              <p class="Hsection3_join_Challenge_p1">
+                Join The Challenge Now!{' '}
+              </p>
+              <p class="Hsection3_join_Challenge_p2">
                 I Want Daily Training, LIVE Coaching and Accountability, From
                 Day 1 to Day 30
               </p>
-       
             </div>
 
-            <div className="Hsection6_flex_sec_1_img_block"> 
-                <img className="img-fluid" src={testimony} alt="" />
-                <img className="img-fluid" src={testimony} alt="" />
-                <img className="img-fluid" src={testimony} alt="" />
-                <img className="img-fluid" src={testimony} alt="" />
-                <img className="img-fluid" src={testimony} alt="" />
-
-
+            <div className="Hsection6_flex_sec_1_img_block">
+              <img className="img-fluid" src={testimony} alt="" />
+              <img className="img-fluid" src={testimony} alt="" />
+              <img className="img-fluid" src={testimony} alt="" />
+              <img className="img-fluid" src={testimony} alt="" />
+              <img className="img-fluid" src={testimony} alt="" />
             </div>
-
-        </div>
-
+          </div>
         </div>
 
         <hr />
-
-
-
-
 
         <div className="Hsection6_Sec_three container">
           <h2>These Bonuses Are ALL Inside The One Funnel Away Challenge...</h2>
@@ -239,11 +259,15 @@ const Hsection6 = () => {
             <div className="Hsection6_Sec_three">
               <ul>
                 <li>
+                  <i class="uil uil-check done"></i>
                   The Challenge "One Pagers"… (act as a day-by-day companion
                   guide to the Challenge)
                 </li>
 
-                <li>​And, the BONUS 550 page digital “30 Days” eBook…</li>
+                <li>
+                  ​ <i class="uil uil-check done"></i> And, the BONUS 550 page
+                  digital “30 Days” eBook…
+                </li>
               </ul>
             </div>
           </div>
@@ -261,18 +285,9 @@ const Hsection6 = () => {
             </p>
           </div>
         </div>
-
-
-      
-
-
-
-        </div>
-
-
-
+      </div>
     </>
-  );
-};
+  )
+}
 
-export default Hsection6;
+export default Hsection6

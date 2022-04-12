@@ -1,4 +1,19 @@
 /* // Small devices (landscape phones, 576px and up) */
+.other_Section {
+  /* border: 2px solid yellow; */
+  margin: auto;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.des_version {
+  display: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
 
 .Hsection2_flex {
   display: flex;
@@ -17,18 +32,24 @@
 }
 
 .Hsection2_flex_2_p2 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bolder;
   color: #1e4da7;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 .Hsection2_flex_2_p1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #002462;
-  margin-bottom: -1rem;
+  /* margin-bottom: -1rem; */
+}
+.mobile_version > .Hsection2_flex_2_p1 {
+  line-height: 3rem;
+}
 
+.mobile_version > .Hsection2_flex_2_p2 {
+  line-height: 3rem;
 }
 
 .Hsection2_flex_two {
@@ -39,14 +60,14 @@
   display: block;
   margin: auto;
   width: 50%;
+  padding-top: 2rem;
 }
 
-.Hsection2_flex_two :nth-child(3){
+.Hsection2_flex_two :nth-child(3) {
   font-weight: bold;
 }
 
-.Hsection2_flex_two > div > p
- {
+.Hsection2_flex_two > div > p {
   margin-top: 1rem;
 }
 
@@ -60,7 +81,7 @@
   font-weight: bolder;
   font-size: 2rem;
   text-align: center;
-  padding: 0 2rem;
+  /* padding: 0 6rem; */
 }
 
 .Hsection2_section_3_form > div {
@@ -77,10 +98,11 @@
 
 .Hsection2_p_2 {
   font-size: 3.5em;
-  font-weight: bolder;
+  font-weight: 900;
   color: #002462;
   text-align: center;
   margin-bottom: 1rem;
+  line-height: 3rem;
 }
 
 .Hsection2_p_3 {
@@ -90,7 +112,7 @@
 .Hsection2_div_img > img {
   margin: auto;
   display: block;
-  width: 70%;
+  width: 90%;
 }
 
 .Hsection2_div_img_Testimo {
@@ -102,6 +124,15 @@
 form input[type="checkbox"] {
   width: 3rem;
   height: 1.4rem;
+}
+
+.Hsection2_p_3 > b {
+  color: var(--prymary-bg-clr);
+}
+
+.Hsection2_p_3_pro {
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
@@ -119,10 +150,13 @@ form input[type="checkbox"] {
     font-size: 2rem;
   }
 
-
   form input[type="checkbox"] {
     width: 3rem;
-    height:2rem;
+    height: 2rem;
+  }
+
+  .Hsection2_p {
+    font-size: 2rem;
   }
 
   .Hsection2_flex_1 > img {
@@ -132,27 +166,34 @@ form input[type="checkbox"] {
     margin-top: 2rem;
   }
 
-  .Hsection2_flex_2_p1{
-    font-size: 3rem;
-  }
-
-  .Hsection2_flex_2_p2{
+  .Hsection2_flex_2_p1 {
     font-size: 4rem;
-
-
+    padding: 1rem 0;
   }
 
-  .Hsection2_p_3{
+  .Hsection2_flex_2_p2 {
+    font-size: 4rem;
+    padding: 1rem 0;
+  }
+
+  .Hsection2_p_3 {
     font-size: 1.5rem;
+    margin-top: 1rem;
   }
-
+  .Hsection2_p_2 {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-
-  
+  .des_version {
+    display: block;
+  }
+  .mobile_version {
+    display: none;
+  }
   .Hsection2_flex {
     flex-direction: row;
     justify-content: space-around;
@@ -161,6 +202,7 @@ form input[type="checkbox"] {
   .Hsection2_flex_two {
     display: flex;
     font-size: 1.5rem;
+    margin-top: 2rem;
   }
 
   .Hsection2_flex_1 > img {
@@ -169,27 +211,63 @@ form input[type="checkbox"] {
 
   /* Hide checkboxes input[type="checkbox"] { position: absolute; opacity: 0; z-index: -1; } */
 
-  .Hsection2_flex_2_p2{
-    border-bottom: 2px solid black;
+  .Hsection2_flex_2_p1 {
+    padding: 0;
+    font-size: 5rem;
+    font-weight: 600;
   }
-  .Hsection2_flex_two  > div > img{
+  .Hsection2_flex_2_p2 {
+    border-bottom: 2px solid black;
+    padding: 0;
+  }
+  .Hsection2_flex_two > div > img {
     width: 30rem;
     margin-top: 1rem;
+    padding-top: 0;
   }
 
-  .Hsection2_flex_2{
+  .Hsection2_flex_2 {
     border-bottom: 0;
     margin-top: 5rem;
   }
 
-  .Hsection2_section_3 h2{
-      padding: 0 6rem;
+  .Hsection2_section_3,
+  .Hsection2_p {
+    /* background-color: blue; */
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    margin-top: 2rem;
   }
 
+  .Hsection2_p_2 {
+    font-size: 5.5em;
+    font-weight: 900;
+    color: #002462;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 5rem;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .Hsection2_p_2_div {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 2rem;
+  }
+
+  .other_Section {
+    margin: auto;
+    display: block;
+    width: 80%;
+    margin-top: 2rem;
+    box-shadow: 0px 2px 5px 6px rgba(31, 30, 30, 0.4);
+    -webkit-box-shadow: 0px 2px 5px 6px rgba(31, 30, 30, 0.4);
+    -moz-box-shadow: 0px 2px 5px 6px rgba(31, 30, 30, 0.4);
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */

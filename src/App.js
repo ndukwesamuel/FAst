@@ -4,6 +4,7 @@ import Navbars from "./Page/Navbar";
 // import Sell from './Sell'
 import Home from "./Page/Home";
 import Resgistration from "./Page/Resgistration";
+import Hsection10 from "./Components/HomeSection/Hsection10A";
 
 function App() {
   return (

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;600;700&family=Permanent+Marker&display=swap");
 /*
 =============== 
 Variables
@@ -68,21 +70,35 @@ Variables
   /* overflow-x: hidden; */
 }
 
-
-
 body {
   background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.the_des_sec,
+.dex_img {
+  display: none;
+}
+
+.bold_blue {
+  font-weight: 600;
+  color: var(--prymary-bg-clr);
 }
 
 .section_one {
   background-color: var(--prymary-bg-clr);
   color: var(--clr-white);
+  width: 100%;
+}
+
+.quote_section {
+  font-size: 2rem;
 }
 
 .text_center {
   text-align: center;
 }
-p{
+p {
   margin: 0;
   padding: 0;
 }
@@ -109,20 +125,21 @@ p{
 }
 
 .Hsection1_ {
-  background-color: hsl(209, 61%, 16%);
+  /* background-color: hsl(209, 61%, 16%); */
+  background-color: rgba(0, 0, 0, 0.29);
+  padding: 1rem 0;
 }
 
-.Hsection1_count_down{
+.Hsection1_count_down {
   display: flex;
   justify-content: center;
   gap: 0.6rem;
   text-align: center;
-
 }
-.Hsection1_count_down_flex_item >div{
+.Hsection1_count_down_flex_item > div {
   background-color: transparent;
   border-radius: 50%;
-  width:4rem;
+  width: 4rem;
   height: 4rem;
   color: white;
   font-size: 2rem;
@@ -137,11 +154,9 @@ p{
   font-size: 1.3rem;
 }
 
-.Hsection1_P{
+.Hsection1_P {
   font-weight: bolder;
 }
-
-
 
 .btn_live {
   background-color: var(--btn-clr);
@@ -174,7 +189,8 @@ p{
     font-size: 1.4rem;
   }
   .Hsection1_ {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
   }
   .Hsection1_div_p1 {
     font-size: 1.5rem;
@@ -197,33 +213,49 @@ p{
   }
 
   .sec_one {
-
     font-size: 2.3rem;
     padding: 0 2rem;
     font-weight: 900;
   }
 
-  .Hsection1_row_1  > p {
+  .Hsection1_row_1 > p {
     padding: 0 1rem;
-    
   }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .the_des_sec,
+  .dex_img {
+    display: block;
+  }
+  .sec_Tow,
+  .mob_img {
+    display: none;
+  }
+
+  .dex_img img {
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding-top: 2rem;
+  }
   .sec_one {
     font-size: 3rem;
     padding: 0 8rem;
- 
- 
   }
 
-  .Hsection1_row_1  > p {
+  .Hsection1_row_1 > p {
     font-size: 2rem;
-    
   }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .btn_inLAp {
+    display: block;
+    margin: auto;
+    /* width: 60%; */
+    padding: 10px;
+  }
 }

@@ -12,7 +12,10 @@ const Hsection7 = () => {
       <div className="Hsection7 container">
         <div className=" Hsection7_Sec_one">
           <div className="Hsection7_Sec_one_img">
-          <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />      <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />      <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />      <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />  
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />{" "}
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />{" "}
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />{" "}
+            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />
           </div>
         </div>
 
@@ -29,13 +32,21 @@ const Hsection7 = () => {
               you’ll never use…
             </p>
 
-            <p>It combines the right marketing KNOWLEDGE…</p>
-
-            <p>With the SHOVE you need to EXECUTE your funnel…</p>
+            <p>
+              It combines the right marketing
+              <span className="bold_blue"> KNOWLEDGE… </span>
+            </p>
 
             <p>
-              And a “no-excuses” ACCOUNTABILITY team of coaches who are caring
-              and supportive, while making sure that you get your tasks done…
+              With the SHOVE you need to{" "}
+              <span className="bold_blue"> EXECUTE </span> your funnel…
+            </p>
+
+            <p>
+              And a “no-excuses”{" "}
+              <span className="bold_blue"> ACCOUNTABILITY </span> team of
+              coaches who are caring and supportive, while making sure that you
+              get your tasks done…
             </p>
             <p>
               That’s the biggest challenge in getting your first (or next)
@@ -43,16 +54,22 @@ const Hsection7 = () => {
             </p>
 
             <p>It’s almost NEVER a lack of knowledge that’s the problem...</p>
+
+            <p className="bold_blue increas_bold ">
+              {" "}
+              It’s a lack of EXECUTION…
+            </p>
+            <p>(or, not executing the right way). </p>
           </div>
         </div>
       </div>
 
       <div className="Hsection7_sec">
         <img className="img-fluid" src={board} alt="" />
-        <div className="Hsection7_sec__ Hsection3_join_Challenge btn_live  ">
+        <div className=" Hsection3_join_Challenge   ">
           <p className="Hsection3_join_Challenge_p1">
             {" "}
-            Join  The Challenge Now!{" "}
+            Join The Challenge Now!{" "}
           </p>
 
           <p className="Hsection3_join_Challenge_p2">
@@ -63,9 +80,13 @@ const Hsection7 = () => {
 
         <div className=" Hsection7_sec_p container">
           <p>
-            As you can probably see, getting access to the 'One Funnel Away'
-            challenge is like having me, and my entire OFA Expert Consulting
-            Team as your own personal funnel coaches!
+            As you can probably see,
+            <span className="bold_blue">
+              {" "}
+              getting access to the 'One Funnel Away' challenge
+            </span>{" "}
+            is like having me, and my entire OFA Expert Consulting Team as your
+            own personal funnel coaches!
           </p>
           <p>
             The only difference is that you couldn't buy a 1 hour consulting
@@ -77,12 +98,18 @@ const Hsection7 = () => {
           </p>
           <p>So, to get 30 days with all of us, for just $100 is crazy!</p>
           <p>
-            Yet you get everything we talked about above for FREE when you join
-            the 'One Funnel Away' challenge today!
+            Yet{" "}
+            <span className="bold_blue underline">
+              you get everything we talked about above for FREE when you join
+              the 'One Funnel Away' challenge today!
+            </span>
           </p>
           <p>
-            So, are you excited yet!?! If so, then NOW is the time to take
-            action!
+            So, are you excited yet!?!{" "}
+            <span className="bold_blue">
+              {" "}
+              If so, then NOW is the time to take action!
+            </span>
           </p>
         </div>
       </div>

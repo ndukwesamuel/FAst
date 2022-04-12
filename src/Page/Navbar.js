@@ -1,45 +1,34 @@
-import { Link } from "react-router-dom";
-import Footer_img from "../images/one-funnel-away_logo_funnel.png";
-import "./Navbar.css";
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import Footer_img from '../images/one-funnel-away_logo_funnel.png'
+import './Navbar.css'
+
 const Navbar = () => {
+  const [first, setfirst] = useState('green')
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="container-fluid">
+        <div>
+          <Link to="/">
             <img className="img-fluid nav_img" src={Footer_img} alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <Link to="/" class="nav-link" aria-current="page">
-                  Home
-                </Link>
-              </li>
+          </Link>
+        </div>
 
-              <li class="nav-item">
-                <Link to="/Resgistration" class="nav-link" href="#">
-                  Member Login
-                </Link>
-              </li>
-     
-            </ul>
-          </div>
+        <div className="nav_Sec2 container-fluid">
+          <a href="#img_join" className="nav_link">
+            Join
+          </a>
+          <Link to="/Resgistration" className="nav_link">
+            Member{' '}
+          </Link>
+          <Link className="nav_link"> Affiliates </Link>
+
+          <Link className="nav_link"> Successes </Link>
+          <Link className="nav_link"> Support </Link>
         </div>
       </nav>
     </>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

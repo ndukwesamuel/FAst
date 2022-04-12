@@ -1,40 +1,38 @@
-import board from "../../images/bord2.png";
-import step from "../../images/step.png";
-import david from "../../images/david.png";
-import ofa_small_min from "../../images/ofa_small-min.png";
+import board from '../../images/bord2.png'
+import step from '../../images/step.png'
+import david from '../../images/david.png'
+import ofa_small_min from '../../images/ofa_small-min.png'
 
-import "./Hsection4.css";
+import './Hsection4.css'
 
 const Hsection4 = () => {
   return (
     <>
-
-  
-<div className="Hsection4 ">
-
-<div className="Hsection4_chanll">
+      <div className="Hsection4 ">
+        <div className="Hsection4_chanll">
           <div className="container">
             <img className="img-fluid" src={ofa_small_min} alt="" />
           </div>
 
-          <div className="Hsection4_chanll_div_2">
-            <p>The First Thing You’ll Get Access To Is The...</p>
+          <div className="container">
+            <div className="Hsection4_chanll_div_2 ">
+              <p>The First Thing You’ll Get Access To Is The...</p>
 
-            <p>'One Funnel Away' </p>
-            <p> CHALLENGE...</p>
+              <p>'One Funnel Away' </p>
+              <p> CHALLENGE...</p>
+            </div>
           </div>
         </div>
 
-
-        
         <div className="Hsection4_div">
           <p>
-            Led by Trainer Russell Brunson and The ‘One Funnel Away’ Consulting
-            Team, this challenge is designed to help you Customize and IMPLEMENT
-            your first (or next) funnel in just 30 days…
+            Led by Trainer{' '}
+            <b> Russell Brunson and The ‘One Funnel Away’ Consulting Team,</b>{' '}
+            this challenge is designed to help you <b>Customize</b> and{' '}
+            <b className="underline">IMPLEMENT</b> your first (or next) funnel
+            in just 30 days…
           </p>
-        </div>  
-
+        </div>
 
         <div className="container">
           <div className="Hsection4_step row">
@@ -45,14 +43,15 @@ const Hsection4 = () => {
               <h2 className=""> "The Strategy"</h2>
 
               <p>
-                Each day, you will receive a new mission from Russell, streamed
-                to the private Facebook group.{" "}
+                Each day, you will receive a{' '}
+                <span className="underline">new mission from Russell,</span>{' '}
+                streamed to the private Facebook group.{' '}
               </p>
 
               <p>
                 These private videos will be about 30 minutes long, and will
                 give you the strategy you have to master for each step you need
-                for success.{" "}
+                for success.{' '}
               </p>
 
               <p>
@@ -62,28 +61,27 @@ const Hsection4 = () => {
               </p>
             </div>
 
-
             <div className="Hsection4_step_child col-lg-4">
               <h1>Step #2</h1>
               <img className="img-fluid" src={step} alt="" />
 
-              <h2> "The Strategy"</h2>
+              <h2> "The Tactics"</h2>
 
               <p>
-                Each day, you will receive a new mission from Russell, streamed
-                to the private Facebook group.{" "}
+                After the stream ends in the Facebook group, you will be given a
+                <b>"One Pager" mission document</b> with the exact step by step
+                tactics you need to implement to complete that step.
               </p>
 
               <p>
-                These private videos will be about 30 minutes long, and will
-                give you the strategy you have to master for each step you need
-                for success.{" "}
+                There will be videos showing{' '}
+                <span className="underline">HOW to implement the strategy</span>{' '}
+                as well as a digital workbook to help keep everything clear!
               </p>
 
               <p>
-                You will have the ability to network with and ask questions to
-                our coaches as well as others OFA-ers who are also going through
-                the challenge with you!
+                These missions will take between 30-60 minutes to complete each
+                day.
               </p>
             </div>
 
@@ -91,113 +89,108 @@ const Hsection4 = () => {
               <h1>Step #3</h1>
               <img className="img-fluid" src={step} alt="" />
 
-              <h2> "The Strategy"</h2>
+              <h2> "Implementation"</h2>
 
               <p>
-                Each day, you will receive a new mission from Russell, streamed
-                to the private Facebook group.{" "}
+                Not only do you get 30 days of daily video coaching and
+                accountability…
               </p>
 
               <p>
-                These private videos will be about 30 minutes long, and will
-                give you the strategy you have to master for each step you need
-                for success.{" "}
+                You also <b>LIVE TRAINING SESSIONS DAILY</b> Monday - Friday
+                with our expert OFA consultants.
               </p>
 
               <p>
-                You will have the ability to network with and ask questions to
-                our coaches as well as others OFA-ers who are also going through
-                the challenge with you!
+                On these special live trainings, you get to pick their brains
+                and ask ANY question you have about your funnels, strategies,
+                your offer, tech challenges, you name it.
+              </p>
+
+              <p>
+                <b>It’s like having your very own DEDICATED SUPPORT TEAM.</b>
               </p>
             </div>
           </div>
         </div>
-        
 
-
-        
         <div className="Hsection4_step_child_mission">
           <p> Here Is Your Mission, </p>
           <p>(Should You Choose To Accept This Challenge…)</p>
         </div>
 
-        
         <div className="Hsection4_step_Take_action">
           <p>
-            Your Challenge Is To TAKE ACTION And Complete The Tasks Given To
-            You,
+            Your Challenge Is To <span className="underline">TAKE ACTION</span>{' '}
+            And Complete The Tasks Given To You,
           </p>
           <p> Every Day For 30 Days </p>
         </div>
 
+        <div className="container-fluid">
+          <div className="row Hsection4___">
+            <div className="col-lg-6">
+              <div className="">
+                <p> Yes, there will be some prep-work involved…</p>
 
+                <p> Yes, there will be homework…</p>
 
+                <p>
+                  But every day, you’ll be taking steps toward building your
+                  business!{' '}
+                </p>
 
+                <p> Our only question for you is…</p>
 
-    <div className="container-fluid"> 
-        <div className="row Hsection4___">
-          <div className="col-lg-6">
-            <div className="container">
-            <p> Yes, there will be some prep-work involved…</p>
+                <p> “Do YOU Have What It Takes?”</p>
 
-            <p> Yes, there will be homework…</p>
+                <p>
+                  By the time the challenge is over, you will have a funnel that
+                  is <span className="underline">LIVE!</span>
+                </p>
 
-            <p>
-              But every day, you’ll be taking steps toward building your
-              business!{" "}
-            </p>
+                <p>
+                  {' '}
+                  Not only will we help you figure out what that funnel is, but
+                  you’ll have it created and <b>FINISHED</b> by the end of the
+                  challenge!
+                </p>
 
-            <p> Our only question for you is…</p>
-
-            <p> “Do YOU Have What It Takes?”</p>
-
-            <p>
-              By the time the challenge is over, you will have a funnel that is
-              LIVE!
-            </p>
-
-            <p>
-              {" "}
-              Not only will we help you figure out what that funnel is, but
-              you’ll have it created and FINISHED by the end of the challenge!
-            </p>
-
-            <p>
-              {" "}
-              And, you’ll be able to launch it to the world, generate leads, and
-              turn those leads into customers who buy from you again and again.
-            </p>
-
+                <p>
+                  {' '}
+                  And, you’ll be able to launch it to the world, generate leads,
+                  and turn those leads into customers who buy from you again and
+                  again.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="col-lg-6">
-            <img className="img-fluid" src={david} alt="" />
-            <img className="img-fluid" src={david} alt="" />
+            <div className="col-lg-6">
+              <img
+                className="img-fluid"
+                src="//onefunnelaway.com/hosted/images/2c/80f5d00add11e98db8d9800cf071d1/OFA-Testimonials_Quotes.png"
+                alt=""
+              />
+              <img className="img-fluid" src={david} alt="" />
+              <img className="img-fluid" src={david} alt="" />
+            </div>
           </div>
         </div>
 
-
-      </div>
-
-      <div className="Hsection3_join_Challenge btn_live  ">
+        <div className="Hsection3_join_Challenge   ">
           <p className="Hsection3_join_Challenge_p1">
-            {" "}
-            Join The Challenge Now!{" "}
+            {' '}
+            Join The Challenge Now!{' '}
           </p>
 
           <p className="Hsection3_join_Challenge_p2">
             I Want Daily Training, LIVE Coaching and Accountability, From Day 1
             to Day 30
           </p>
-        </div>  
-
-
-  </div>
-
-   
+        </div>
+      </div>
     </>
-  );
-};
+  )
+}
 
-export default Hsection4;
+export default Hsection4
