@@ -13,64 +13,63 @@ const Hsection9 = () => {
       <div className="Hsection9 container">
         <p> So, What's The Catch...?</p>
 
-        <div className="Hsection9_flex"> 
-          
-          
-        <div className="Hsection9_display_felx">
-          <div className="Hsection9_display_felx_P">
+        <div className="Hsection9_flex">
+          <div className="Hsection9_display_felx">
+            <div className="Hsection9_display_felx_P">
+              <p>
+                We're doing this challenge, because we KNOW that when you have
+                success selling your products through funnels, you're more
+                likely to continue to use ClickFunnels to grow your company...{" "}
+              </p>
+
+              <p>
+                That's it... that's our "evil" ulterior motive - for you to have
+                success so you keep using our software that is giving you that
+                success.
+              </p>
+            </div>
+
+            <div>
+              <img
+                className="img-fluid"
+                src={OFA_Testimonials_1_1_min}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className="Hsection9_Sec_two">
             <p>
-              We're doing this challenge, because we KNOW that when you have
-              success selling your products through funnels, you're more likely
-              to continue to use ClickFunnels to grow your company...{" "}
+              Plus, we also pay our affiliates who refer people to this
+              challenge $100 for anyone they signup. Chances are you found out
+              about this page from one of those affiliates. So, we actually lose
+              money for each person who joins the challenge.
+            </p>
+            <p>
+              And the few of you who signup without an affiliate telling you
+              about this challenge, you probably found out about it because I
+              paid for an ad on Facebook or Youtube to get you here.
             </p>
 
             <p>
-            
-              That's it... that's our "evil" ulterior motive - for you to have
-              success so you keep using our software that is giving you that
-              success.
+              Either way, I REALLY make very little, and in most cases lose
+              money for each person who joins this challenge.
             </p>
-          </div>
+            <p>So, why would I do this?</p>
+            <p>
+              Because we have a philosophy here at ClickFunnels, that if we
+              can't make you money, then we don't deserve any of yours.{" "}
+            </p>
+            <p>
+              So our goal is to help you make money... then hopefully you'll
+              chose to re-invest some of those profits back into the products
+              and services that we sell.
+            </p>
 
-          <div>
-            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" />
+            <p>Does that sound more then fair? :)</p>
           </div>
         </div>
-
-        <div className="Hsection9_Sec_two">
-          <p>
-            Plus, we also pay our affiliates who refer people to this challenge
-            $100 for anyone they signup. Chances are you found out about this
-            page from one of those affiliates. So, we actually lose money for
-            each person who joins the challenge.
-          </p>
-          <p>
-            And the few of you who signup without an affiliate telling you about
-            this challenge, you probably found out about it because I paid for
-            an ad on Facebook or Youtube to get you here.
-          </p>
-
-          <p>
-            Either way, I REALLY make very little, and in most cases lose money
-            for each person who joins this challenge.
-          </p>
-          <p>So, why would I do this?</p>
-          <p>
-            Because we have a philosophy here at ClickFunnels, that if we can't
-            make you money, then we don't deserve any of yours.{" "}
-          </p>
-          <p>
-            So our goal is to help you make money... then hopefully you'll chose
-            to re-invest some of those profits back into the products and
-            services that we sell.
-          </p>
-
-          <p>Does that sound more then fair? :)</p>
-        </div>
-          </div> 
         <div>
-  
-
           <div className="Hsec9_live ">
             <p> Join The Challenge Now!</p>
             <p>
@@ -122,22 +121,26 @@ const Hsection9 = () => {
           </div>
         </div>
         <div className="Hsec9_live ">
-            <p> Join The Challenge Now!</p>
-            <p>
-              I Want Daily Training, LIVE Coaching and Accountability, From Day
-              1 to Day 30
-            </p>
-          </div>
-        <p className="Hsection9_join_live"> Why Time Is Of The Essence...</p>
+          <p> Join The Challenge Now!</p>
+          <p>
+            I Want Daily Training, LIVE Coaching and Accountability, From Day 1
+            to Day 30
+          </p>
+        </div>
+        <p className="Hsection9_join_live"> Is There A Guarantee?</p>
 
         <div className="Hsection9_sec5">
           <div className="container">
             <p>
               I guarantee that if you participate in the challenge, show up to
               the daily live calls, implement what you learn, by the time the
-              challenge is done, you will have a complete funnel and a solid
-              understanding of the core fundamentals of direct response
-              marketing and funnel building.
+              challenge is done,{" "}
+              <b>
+                {" "}
+                you will have a complete funnel and a solid understanding of the
+                core fundamentals of direct response marketing and funnel
+                building.
+              </b>
             </p>
 
             <p>
@@ -149,59 +152,82 @@ const Hsection9 = () => {
             <p>Pretty simple. </p>
 
             <p>
-              But if you're like most people, this experience will change your
-              business (and for some of you, it'll change your life!)
+              <b className="underline">
+                But if you're like most people, this experience will change your
+                business (and for some of you, it'll change your life!)
+              </b>
             </p>
           </div>
 
           <div>
-            <img className="img-fluid" src={OFA_Testimonials_1_1_min} alt="" srcset="" />
-            <img src={OFA_Testimonials_1_1_min} className="img-fluid" alt="" srcset="" />
+            <img
+              className="img-fluid"
+              src={OFA_Testimonials_1_1_min}
+              alt=""
+              srcset=""
+            />
+            <img
+              src={OFA_Testimonials_1_1_min}
+              className="img-fluid"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
         <div className="Hsec9_live ">
-            <p> Join The Challenge Now!</p>
-            <p>
-              I Want Daily Training, LIVE Coaching and Accountability, From Day
-              1 to Day 30
-            </p>
-          </div>
+          <p> Join The Challenge Now!</p>
+          <p>
+            I Want Daily Training, LIVE Coaching and Accountability, From Day 1
+            to Day 30
+          </p>
+        </div>
 
         <p className="Hsection9_join_live"> Here's What To Do Next...</p>
 
         <div className="Hsection9_sec6 container">
           <p>
-            From here it's just finalizing the details. Click on the button
-            below and create your account, then we can finally get started!{" "}
+            From here it's just finalizing the details.
+            <b> Click on the button below and create your account</b>, then we
+            can finally get started!
           </p>
           <p>
             Thanks for taking the time to read this letter and watching the
             video and I look forward to hearing your success story at the end of
             the challenge!
           </p>
-          <p>Russell Brunson</p>
           <p>
-            P.S. In case you're one of those people (like me) who just skip to
-            the end of the letter, here's the deal:
+            <b>Russell Brunson </b>
           </p>
           <p>
-            When you join the "One Funnel Away" challenge today (for just $100)
-            I'm going to give you the 550 page '30 Days' digital ebook, the
-            Challenge "One Pagers" (act as a day-by-day companion guide to the
-            Challenge)...
+            <b>P.S.</b> In case you're one of those people (like me) who just
+            skip to the end of the letter, here's the deal:
           </p>
           <p>
-            PLUS, you’ll get a full 30 day experience where you work with
-            myself, and the OFA Consulting Team to get your first (or next)
-            funnel launched!{" "}
+            <b>
+              {" "}
+              When you join the "One Funnel Away" challenge today (for just
+              $100) I'm going to give you the 550 page '30 Days' digital ebook,
+              the Challenge "One Pagers" (act as a day-by-day companion guide to
+              the Challenge)...
+            </b>
+          </p>
+          <p>
+            <b>
+              PLUS, you’ll get a full 30 day experience where you work with
+              myself, and the OFA Consulting Team to get your first (or next)
+              funnel launched!{" "}
+            </b>
           </p>
           <p>
             Oh, and if for some crazy reason you don't love the challenge -
-            Email us and we'll refund your $100.
+            <span className="underline">
+              {" "}
+              Email us and we'll refund your $100.{" "}
+            </span>
           </p>
           <p>
-            Sound fair? Then what are you waiting for!?! Join the "One Funnel
-            Away" challenge today!
+            Sound fair? Then what are you waiting for!?!{" "}
+            <b> Join the "One Funnel Away" challenge today!</b>
           </p>{" "}
         </div>
       </div>

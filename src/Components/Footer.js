@@ -1,7 +1,7 @@
-import React from "react";
-import "./footer.css";
+import React from 'react'
+import './footer.css'
 
-import Footer_img from "../images/Footer_img.png";
+import Footer_img from '../images/Footer_img.png'
 
 function Footer() {
   return (
@@ -10,8 +10,7 @@ function Footer() {
         <img src={Footer_img} alt="" />
 
         <div>
-          <a href="">Terms </a> <a href="">Privacy</a> <a href="">Support</a>{" "}
-          <a href="">Cookie Preferences</a>
+          <a>Terms </a> <a>Privacy</a> <a>Support</a> <a>Cookie Preferences</a>
         </div>
 
         <div className="footer_div_2">
@@ -26,12 +25,8 @@ function Footer() {
           </p>
         </div>
       </footer>
-
-
-  
-      
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

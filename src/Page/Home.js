@@ -15,6 +15,7 @@ import moblie_head from '../images/headline_ofaplat2v3-min.png'
 import dex_head from '../images/headline_ofaplatV2-min.png'
 
 import { MdOutlineHorizontalRule } from 'react-icons/md'
+import Hsection10 from '../Components/HomeSection/Hsection10A'
 
 const Home = () => {
   return (
@@ -41,6 +42,19 @@ const Home = () => {
 
         <div className="other_Section">
           <Hsection7 />
+          <Hsection8 />
+        </div>
+
+        <div className="other_Section">
+          <Hsection9 />
+        </div>
+
+        <div className="other_Section">
+          <Hsection10 />
+        </div>
+
+        <div className="other_Section">
+          <Hsection11 />
         </div>
       </div>
     </>

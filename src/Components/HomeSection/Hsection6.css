@@ -227,4 +227,9 @@
   .Hsection6_join_live :first-child {
     font-size: 3rem;
   }
+
+  .Hsection6_join_live {
+    width: 80%;
+    /* margin-left: 0rem; */
+  }
 }

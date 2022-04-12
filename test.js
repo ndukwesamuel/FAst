@@ -1,173 +1,168 @@
+;<div className="Hsection10">
+  <div className="Hsection10_Header">
+    <p>Here’s A Recap Of</p>
 
-   <div className="Hsection4 ">
+    <p>EVERYTHING You'll Get FREE</p>
 
-   {/* <div className="Hsection4_chanll">
-          <div className="container">
-            <img className="img-fluid" src={ofa_small_min} alt="" />
-          </div>
+    <p>When You Accept The ‘One Funnel Away’ Challenge Today!</p>
+  </div>
 
-          <div className="Hsection4_chanll_div_2">
-            <p>The First Thing You’ll Get Access To Is The...</p>
+  <section className="Hsection10_Section1">
+    <div>
+      <img className="img-fluid Hsection10_Section1_img1" src={img1} alt="" />
+    </div>
 
-            <p>'One Funnel Away' </p>
-            <p> CHALLENGE...</p>
-          </div>
-        </div> */}
-{/* 
-        <div className="Hsection4_div">
-          <p>
-            Led by Trainer Russell Brunson and The ‘One Funnel Away’ Consulting
-            Team, this challenge is designed to help you Customize and IMPLEMENT
-            your first (or next) funnel in just 30 days…
-          </p>
-        </div>   */}
+    <div>
+      <img className="img-fluid Hsection10_Section1_img2" src={img2} alt="" />
+    </div>
 
-        
-        {/* display flex */}
-        {/* <div className="container">
-          <div className="Hsection4_step row">
-            <div className="Hsection4_step_child col-lg-4">
-              <h1>Step #1</h1>
-              <img className="img-fluid" src={step} alt="" />
+    <p className="text-center Hsection10_Section1_Total_Value ">
+      Total Value: <strike> $3,126</strike>{' '}
+    </p>
 
-              <h2 className=""> "The Strategy"</h2>
+    <p className="Hsection10_Section1_Live">
+      If you want to get your funnel LIVE and start building your business, then
+      <i>
+        <u>this</u> is the mission we’re giving you...
+      </i>
+    </p>
 
-              <p>
-                Each day, you will receive a new mission from Russell, streamed
-                to the private Facebook group.{" "}
-              </p>
+    <div className="Hsection10_Section1_Accept">
+      <p>You have 30 Days, starting Apr 18th...</p>
+      <p>
+        Do <u>YOU</u> Accept
+      </p>
+    </div>
 
-              <p>
-                These private videos will be about 30 minutes long, and will
-                give you the strategy you have to master for each step you need
-                for success.{" "}
-              </p>
+    <div className="Hsection10_Section1_Join">
+      <p> Join The ‘One Funnel Away’ Challenge Today!</p>
+      <p>For Only $100</p>
+    </div>
+  </section>
 
-              <p>
-                You will have the ability to network with and ask questions to
-                our coaches as well as others OFA-ers who are also going through
-                the challenge with you!
-              </p>
-            </div>
-
-
-            <div className="Hsection4_step_child col-lg-4">
-              <h1>Step #2</h1>
-              <img className="img-fluid" src={step} alt="" />
-
-              <h2> "The Strategy"</h2>
-
-              <p>
-                Each day, you will receive a new mission from Russell, streamed
-                to the private Facebook group.{" "}
-              </p>
-
-              <p>
-                These private videos will be about 30 minutes long, and will
-                give you the strategy you have to master for each step you need
-                for success.{" "}
-              </p>
-
-              <p>
-                You will have the ability to network with and ask questions to
-                our coaches as well as others OFA-ers who are also going through
-                the challenge with you!
-              </p>
-            </div>
-
-            <div className="Hsection4_step_child col-lg-4">
-              <h1>Step #3</h1>
-              <img className="img-fluid" src={step} alt="" />
-
-              <h2> "The Strategy"</h2>
-
-              <p>
-                Each day, you will receive a new mission from Russell, streamed
-                to the private Facebook group.{" "}
-              </p>
-
-              <p>
-                These private videos will be about 30 minutes long, and will
-                give you the strategy you have to master for each step you need
-                for success.{" "}
-              </p>
-
-              <p>
-                You will have the ability to network with and ask questions to
-                our coaches as well as others OFA-ers who are also going through
-                the challenge with you!
-              </p>
-            </div>
-          </div>
-        </div>   */}
-
-{/* 
-        <div className="Hsection4_step_child_mission">
-          <p> Here Is Your Mission, </p>
-          <p>(Should You Choose To Accept This Challenge…)</p>
+  <section className="Hsection10_Section2">
+    <form action="" method="get">
+      <div className="Hsection10_form_step1">
+        <div className="Hsection10_form_step1_form_header">
+          {' '}
+          STEP 1: CONTACT INFO <BiDownArrow className="" />
         </div>
 
-        
-        <div className="Hsection4_step_Take_action">
-          <p>
-            Your Challenge Is To TAKE ACTION And Complete The Tasks Given To
-            You,
-          </p>
-          <p> Every Day For 30 Days </p>
-        </div> */}
+        <div className="step1_input_one">
+          <label className="display_block" htmlFor="F_name">
+            Full Name:{' '}
+          </label>
+          <input
+            className="Hsection10_form_step1_input"
+            type="text"
+            name=""
+            id="F_name"
+            placeholder="Name as  appears on card "
+          />
+        </div>
 
-        {/* <div className="row Hsection4___">
-          <div className="col-lg-6">
-            <div className="container">
-            <p> Yes, there will be some prep-work involved…</p>
+        <div className="step1_input_two">
+          <label htmlFor="E_name">Email Address:: </label>
+          <input
+            className="Hsection10_form_step1_input"
+            type="text"
+            name=""
+            id="F_name"
+            placeholder="Your email address here... "
+          />
+        </div>
 
-            <p> Yes, there will be homework…</p>
+        <div className="step1_input_three">
+          <label htmlFor="E_name">Address::: </label>
 
-            <p>
-              But every day, you’ll be taking steps toward building your
-              business!{" "}
-            </p>
+          <div>
+            <input
+              className="Hsection10_form_step1_input"
+              type="text"
+              name=""
+              id="F_name"
+              placeholder="Full Address... "
+            />
+          </div>
+        </div>
 
-            <p> Our only question for you is…</p>
+        <div className="step1_input_four">
+          <div>
+            <input
+              className="Hsection10_form_step1_input"
+              type="text"
+              name=""
+              id="F_name"
+              placeholder="City Name... "
+            />
+          </div>
+        </div>
 
-            <p> “Do YOU Have What It Takes?”</p>
+        <div className="step1_input_five">
+          <input
+            className=""
+            type="text"
+            name=""
+            id="F_name"
+            placeholder="Country / Province... "
+          />
+          <input
+            className=""
+            type="text"
+            name=""
+            id="F_name"
+            placeholder="Zip Code... "
+          />
+        </div>
 
-            <p>
-              By the time the challenge is over, you will have a funnel that is
-              LIVE!
-            </p>
+        <button onClick={Handle_next} className="Hsection10_form_step1_button">
+          NEXT STEP
+        </button>
+      </div>
 
-            <p>
-              {" "}
-              Not only will we help you figure out what that funnel is, but
-              you’ll have it created and FINISHED by the end of the challenge!
-            </p>
-
-            <p>
-              {" "}
-              And, you’ll be able to launch it to the world, generate leads, and
-              turn those leads into customers who buy from you again and again.
-            </p>
-
-            </div>
+      <div className="Hsection10_form_step1">
+        <div className="Hsection10_form_step1_form_header">
+          {' '}
+          STEP 2: PAYMENT INFO <BiDownArrow />
+        </div>
+        <div className="PAYMENT_INFO">
+          <div className="step1_input_one">
+            <label className="display_block" htmlFor="Card_num">
+              Credit Card Number::
+            </label>
+            <input
+              className="Hsection10_form_step1_input"
+              type="text"
+              name=""
+              id="F_name"
+              placeholder=" Card Number "
+            />
           </div>
 
-          <div className="col-lg-6">
-            <img className="img-fluid" src={david} alt="" />
-            <img className="img-fluid" src={david} alt="" />
+          <div className="step1_input_five">
+            <input
+              className=""
+              type="text"
+              name=""
+              id="F_name"
+              placeholder="Country / Province... "
+            />
+            <input
+              className=""
+              type="text"
+              name=""
+              id="F_name"
+              placeholder="Zip Code... "
+            />
           </div>
-        </div> */}
+        </div>
 
-        <div className="Hsection3_join_Challenge btn_live  ">
-          <p className="Hsection3_join_Challenge_p1">
-            {" "}
-            Join The Challenge Now!{" "}
-          </p>
+        <button onClick={Handle_next} className="Hsection10_form_step1_button">
+          NEXT STEP
+        </button>
+      </div>
 
-          <p className="Hsection3_join_Challenge_p2">
-            I Want Daily Training, LIVE Coaching and Accountability, From Day 1
-            to Day 30
-          </p>
-        </div>  
-
-    </div>
+      <img src="" alt="" />
+    </form>
+  </section>
+</div>
