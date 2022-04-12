@@ -21,7 +21,7 @@
   width: 95%;
 }
 
-.Hsection3_div_border_OFA{
+.Hsection3_div_border_OFA {
   margin-top: 1rem;
 }
 
@@ -69,20 +69,26 @@
 }
 
 .Hsection3_p_value_1 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
   font-weight: 900;
+  color: var(--prymary-bg-clr);
 }
 
 .Hsection3_p_value_Accept {
   font-size: 1.5em;
   font-weight: 900;
   text-align: center;
-
+  color: var(--prymary-bg-clr);
 }
 
 .Hsection3_join_Challenge {
-  margin: 0 1rem 1rem 1rem;
+  background-color: var(--btn-clr);
+  color: white;
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 1rem;
 }
 
 .Hsection3_join_Challenge_p1 {
@@ -101,45 +107,53 @@
 
 .Hsection3_information :first-child {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   color: #002462;
   padding: 0 3.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
 }
 
 .Hsection3_information :last-child {
   font-size: 2em;
   text-align: center;
   color: #002462;
-
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
-
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .Hsection3_h1_1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--prymary-bg-clr);
+  }
 
-  .Hsection3_div_border_OFA{
+  .Hsection3_div_border_OFA {
     margin-top: 2rem;
   }
 
   .Hsection3_join_Challenge_p1 {
-  font-size: 2rem;
-}
+    font-size: 2rem;
+  }
 
-.Hsection3_join_Challenge_p2 {
+  .Hsection3_join_Challenge_p2 {
     font-size: 1rem;
     padding-bottom: 1rem;
     font-weight: bold;
-}
+  }
 
-.Hsection3_p_value{
-  font-size: 2rem;
-}
+  .Hsection3_p_value {
+    font-size: 2rem;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -149,22 +163,29 @@
   }
 
   .Hsection3_information :first-child {
-  font-size: 3.1rem;
-  font-weight: 900;
-  padding: 0 3.5rem;
-}
+    font-size: 3.1rem;
+    font-weight: 900;
+    padding: 0 3.5rem;
+    line-height: 3rem;
+  }
 
-.Hsection3_information :last-child {
-  font-size: 2rem;
-  text-align: center;
-  padding: 0 3.5rem;
-
+  .Hsection3_information :last-child {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 3.5rem;
+    line-height: 3rem;
+  }
 }
-}
-
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .Hsection3_h1_1 {
+    font-size: 4rem;
+  }
+  .Hsection3_div_border {
+    margin: auto;
+    width: 90%;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */

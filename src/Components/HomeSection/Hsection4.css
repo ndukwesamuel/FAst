@@ -1,50 +1,55 @@
+.Hsection4 {
+  border: #e43b2c solid 4px;
+  background-color: #f8f8f8;
+}
+
 .Hsection4_chanll {
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: #ea5d47;
+  background-color: var(--btn-clr);
 }
 
 .Hsection4_chanll > div > img {
   /* width: 30rem; */
   margin: auto;
   display: block;
+  margin-top: 1rem;
 }
 
 .Hsection4_chanll_div_2 :first-child {
   font-size: 2rem;
-  text-align: center;
-
 }
 
 .Hsection4_chanll_div_2 :nth-child(2) {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
-  margin-bottom: -1rem;
-  text-align: center;
+  line-height: 3rem;
 }
 
 .Hsection4_chanll_div_2 :last-child {
   font-size: 2.5rem;
   font-weight: bolder;
-  background-color: var;
-  text-align: center;
+  font-family: "Fjalla One", sans-serif;
 }
 
+.Hsection4_div {
+  margin: auto;
+  width: 90%;
+}
 
 .Hsection4_div > p {
   font-size: 1.3rem;
-  font-weight: 600;
-  text-align: justify;
-  padding: 0 2rem;
 }
-
 
 .Hsection4_step_child {
   background-color: #efefef;
   margin-bottom: 1rem;
 }
 
+.Hsection4_step_child p {
+  margin-bottom: 1rem;
+}
 
 .Hsection4_step > div > h1 {
   text-align: center;
@@ -60,6 +65,7 @@
   border: 0.00001rem solid black;
   border-left: none;
   border-right: none;
+  color: var(--prymary-bg-clr);
 }
 
 .Hsection4_step > div > img {
@@ -73,12 +79,11 @@
   color: #002462;
   font-weight: bolder;
   text-align: center;
+  line-height: 3rem;
 }
-
 
 .Hsection4_step_child_mission :last-child {
   font-size: 2em;
-  color: #002462;
   font-weight: bolder;
   text-align: center;
 }
@@ -87,7 +92,6 @@
   font-weight: bolder;
   font-size: 1rem;
 }
-
 
 .Hsection4_step_Take_action {
   border: 3px solid #e43b2c;
@@ -107,14 +111,11 @@
   font-weight: 900;
 }
 
-
-.Hsection4___  p {
+.Hsection4___ p {
   font-size: 1.3rem;
   text-align: justify;
   margin-bottom: 1rem;
 }
-
-
 
 .Hsection4___ > div :nth-child(4) {
   font-weight: bold;
@@ -123,7 +124,8 @@
   font-weight: bold;
   font-size: 3rem;
   text-align: center;
-  color: var(--prymary-bg-clr);  
+  color: var(--prymary-bg-clr);
+  line-height: 3rem;
 }
 
 .Hsection4___ > div :nth-child(6) {
@@ -147,15 +149,26 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .Hsection4_chanll_div_2 :last-child {
+    font-size: 5rem;
+  }
+
+  .Hsection4___ > div :nth-child(5) {
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    color: var(--prymary-bg-clr);
+    line-height: 4rem;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .Hsection4_chanll{
+  .Hsection4_chanll {
     flex-direction: row;
   }
 
-  .Hsection4_chanll_div_2{
+  .Hsection4_chanll_div_2 {
     padding-top: 2rem;
   }
 
@@ -163,51 +176,58 @@
     font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
-}
+  }
 
   .Hsection4_chanll_div_2 :nth-child(2) {
-    font-size: 4rem;
+    /* font-size: 4rem; */
     margin-bottom: -2rem;
   }
 
-.Hsection4_chanll_div_2 :last-child {
+  .Hsection4_chanll_div_2 :last-child {
+    font-size: 7rem;
+  }
 
-  font-size: 7rem;}
+  .Hsection4_chanll > div > img {
+    margin: 2rem 0;
+  }
 
-.Hsection4_chanll > div > img {
-  margin-top: 2rem;
+  .Hsection4_chanll_div_2 {
+    text-align: justify;
+  }
 
+  .Hsection4_step_child {
+    border-right: white 10px solid;
+  }
 
-}
+  .Hsection4_step_Take_action {
+    margin: 0 2%;
+  }
 
+  .Hsection4 {
+    padding: 3%;
+  }
 
+  .Hsection3_join_Challenge_p1 {
+    font-size: 5rem;
+  }
 
-.Hsection4_chanll_div_2{
-  text-align: justify;
-}
+  .Hsection3_join_Challenge_p2 {
+    font-size: 1.2rem;
+  }
 
-.Hsection4_step_child{
-  border-right: white 10px solid;
-}
+  .Hsection4_step_child_mission :first-child {
+    font-size: 5rem;
+  }
 
-.Hsection4_step_Take_action{
-  margin: 0 2%;
-
-}
-
-.Hsection4 {
-  padding:  3%;
-
-}
-
-.Hsection3_join_Challenge_p1{
-  font-size: 5rem;
-}
-
-.Hsection3_join_Challenge_p2{
-  font-size: 1.2rem;
-}
-
+  .Hsection4_step_Take_action :first-child {
+    font-size: 3rem;
+  }
+  .Hsection4_step_Take_action :last-child {
+    font-size: 4rem;
+  }
+  .Hsection4___ {
+    margin-top: 1rem;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -217,4 +237,3 @@
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 }
-

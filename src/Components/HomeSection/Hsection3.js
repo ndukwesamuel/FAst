@@ -1,42 +1,50 @@
-import board from "../../images/bord2.png";
+import board from '../../images/bord2.png'
 import OFA_Stack from '../../images/OFA_Stack.png'
-import "./Hsection3.css";
+import './Hsection3.css'
 
 const Hsection3 = () => {
   return (
     <>
       <div className="Hsection3">
-        <h1 className="Hsection3_h1_1">
+        <h1 className="Hsection3_h1_1 container">
           Then In Exchange For That Tiny $100 Investment, You Get ALL Of This:
         </h1>
 
-        <div className="Hsection3_div_border container">
+        <div className="Hsection3_div_border ">
           <img src={board} alt="" />
 
           {/* first div start here */}
 
-          <img className="img-fluid  Hsection3_div_border_OFA  " src={OFA_Stack} alt="" />
+          <img
+            className="img-fluid  Hsection3_div_border_OFA  "
+            src={OFA_Stack}
+            alt=""
+          />
 
           <div>
             <p className="Hsection3_value">
-              Total Value: <span>$3,126</span>
+              Total Value: <strike>$3,126</strike>
             </p>
 
             <p className="Hsection3_p_value">
-              {" "}
+              {' '}
               If you want to get your funnel LIVE and start building your
-              business, then this is the mission we’re giving you...
+              business, then <span className="underline">this</span> is the
+              mission we’re giving you...
             </p>
 
             <p className="Hsection3_p_value_1">
               You have 30 Days, starting Mar 21st...
             </p>
 
-            <p className="Hsection3_p_value_Accept"> Do YOU Accept?</p>
+            <p className="Hsection3_p_value_Accept">
+              {' '}
+              Do <span className="underline">YOU</span> Accept?
+            </p>
 
-            <div className="Hsection3_join_Challenge btn_live  ">
+            <div className="Hsection3_join_Challenge">
               <p className="Hsection3_join_Challenge_p1">
-                Join The Challenge Now!{" "}
+                Join The Challenge Now!{' '}
               </p>
 
               <p className="Hsection3_join_Challenge_p2">
@@ -57,7 +65,7 @@ const Hsection3 = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Hsection3;
+export default Hsection3
