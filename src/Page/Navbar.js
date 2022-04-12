@@ -1,17 +1,26 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Footer_img from '../images/one-funnel-away_logo_funnel.png'
 import './Navbar.css'
+
 const Navbar = () => {
+  const [first, setfirst] = useState('green')
   return (
     <>
       <nav className="container-fluid">
         <div>
-          <img className="img-fluid nav_img" src={Footer_img} alt="" />
+          <Link to="/">
+            <img className="img-fluid nav_img" src={Footer_img} alt="" />
+          </Link>
         </div>
 
         <div className="nav_Sec2 container-fluid">
-          <Link className="nav_link">Join </Link>
-          <Link className="nav_link">Member </Link>
+          <a href="#img_join" className="nav_link">
+            Join
+          </a>
+          <Link to="/Resgistration" className="nav_link">
+            Member{' '}
+          </Link>
           <Link className="nav_link"> Affiliates </Link>
 
           <Link className="nav_link"> Successes </Link>

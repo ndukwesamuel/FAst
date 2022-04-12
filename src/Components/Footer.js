@@ -10,7 +10,8 @@ function Footer() {
         <img src={Footer_img} alt="" />
 
         <div>
-          <a>Terms </a> <a>Privacy</a> <a>Support</a> <a>Cookie Preferences</a>
+          <a href="#img_join">Terms </a> <a href="">Privacy</a>{' '}
+          <a href="">Support</a> <a href="">Cookie Preferences</a>
         </div>
 
         <div className="footer_div_2">

@@ -55,7 +55,10 @@ const Home = () => {
 
         <div className="other_Section">
           <Hsection11 />
+          <Footer />
         </div>
+
+        <Hang />
       </div>
     </>
   )

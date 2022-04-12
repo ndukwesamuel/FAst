@@ -14,10 +14,28 @@ import { BiDownArrow } from 'react-icons/bi'
 // BiDownArrow
 
 import './Hsection10A.css'
+import { useState } from 'react'
 
 const Hsection10 = () => {
+  const [first, setfirst] = useState(false)
+  const [second, setSecond] = useState(false)
+
+  const Handle_nexts = (e) => {
+    e.preventDefault()
+    setfirst(true)
+    console.log('wroking')
+  }
+
+  const Handle_second = (e) => {
+    e.preventDefault()
+    setSecond(true)
+
+    console.log('wroking')
+  }
+
   const Handle_next = (e) => {
     e.preventDefault()
+
     console.log('wroking')
   }
   return (
@@ -35,6 +53,7 @@ const Hsection10 = () => {
           <div>
             <img
               className="img-fluid Hsection10_Section1_img1"
+              id="img_join"
               src={img1}
               alt=""
             />
@@ -78,7 +97,7 @@ const Hsection10 = () => {
             <div className="Hsection10_form_step1">
               <div className="Hsection10_form_step1_form_header">
                 {' '}
-                STEP 1: CONTACT INFO <BiDownArrow className="" />
+                STEP 1: CONTACT INFO
               </div>
 
               <div className="step1_input_one">
@@ -149,7 +168,7 @@ const Hsection10 = () => {
               </div>
 
               <button
-                onClick={Handle_next}
+                onClick={Handle_nexts}
                 className="Hsection10_form_step1_button"
               >
                 NEXT STEP
@@ -159,92 +178,98 @@ const Hsection10 = () => {
             <div className="Hsection10_form_step1">
               <div className="Hsection10_form_step1_form_header">
                 {' '}
-                STEP 2: PAYMENT INFO <BiDownArrow />
-              </div>
-              <div className="PAYMENT_INFO">
-                <div className="step1_input_one">
-                  <label className="display_block" htmlFor="Card_num">
-                    Credit Card Number::
-                  </label>
-                  <input
-                    className="Hsection10_form_step1_input"
-                    type="text"
-                    name=""
-                    id="F_name"
-                    placeholder=" Card Number "
-                  />
-                </div>
-
-                <div className="step1_input_five">
-                  <input
-                    className=""
-                    type="text"
-                    name=""
-                    id="F_name"
-                    placeholder="Country / Province... "
-                  />
-                  <input
-                    className=""
-                    type="text"
-                    name=""
-                    id="F_name"
-                    placeholder="Zip Code... "
-                  />
-                </div>
+                STEP 2: PAYMENT INFO
+                {/* <BiDownArrow /> */}
               </div>
 
-              <button
-                onClick={Handle_next}
-                className="Hsection10_form_step1_button"
-              >
-                NEXT STEP
-              </button>
+              {first && (
+                <div className="PAYMENT_INFO">
+                  <div className="step1_input_one">
+                    <label className="display_block" htmlFor="Card_num">
+                      Credit Card Number::
+                    </label>
+                    <input
+                      className="Hsection10_form_step1_input"
+                      type="text"
+                      name=""
+                      id="F_name"
+                      placeholder=" Card Number "
+                    />
+                  </div>
+
+                  <div className="step1_input_five">
+                    <input
+                      className=""
+                      type="text"
+                      name=""
+                      id="F_name"
+                      placeholder="Country / Province... "
+                    />
+                    <input
+                      className=""
+                      type="text"
+                      name=""
+                      id="F_name"
+                      placeholder="Zip Code... "
+                    />
+                  </div>
+                  <button
+                    onClick={Handle_second}
+                    className="Hsection10_form_step1_button"
+                  >
+                    NEXT STEP
+                  </button>
+                </div>
+              )}
             </div>
 
             <div className="Hsection10_form_step1">
               <div className="Hsection10_form_step1_form_header">
                 {' '}
                 STEP 3:ALSO WANT MY TRAINING?
-                <BiDownArrow />
+                {/* <BiDownArrow /> */}
               </div>
 
-              <div>
-                <img className="img-fluid form_img3" src={img3} alt="" />
-              </div>
-
-              <div className="Hsection10_form_step1_last">
-                <div className="Hsection10_form_step1_result">
-                  <input type="checkbox" name="" id="res" />
-                  <label htmlFor="res">
-                    Yes Russell! Upgrade My Order Now!
-                  </label>
-                </div>
-
+              {second && (
                 <div>
-                  <p className="Hsection10_form_P">
-                    <span className="Hsection10_form_Span">
-                      One Time Offer - Only $37:
-                    </span>{' '}
-                    People always wonder: "What happens if I build a funnel, and
-                    it FLOPS?” Don’t worry (Most people's do the first time...)!
-                    At last year’s Funnel Hacking Live, I gave a special
-                    workshop called Funnel Audibles. It shows you a simple
-                    process to take ANY funnel that’s broken, and turn it from a
-                    ‘zero’ to a ‘HERO’! Click YES to get the training, plus the
-                    transcripts and companion workbook that will walk you
-                    through how to do a funnel audible on your own funnel now
-                    for just $37! (This offer is not available ANYWHERE else on
-                    the market!)
-                  </p>
-                </div>
-              </div>
+                  <div>
+                    <img className="img-fluid form_img3" src={img3} alt="" />
+                  </div>
 
-              <button
-                onClick={Handle_next}
-                className="Hsection10_form_step1_button"
-              >
-                NEXT STEP
-              </button>
+                  <div className="Hsection10_form_step1_last">
+                    <div className="Hsection10_form_step1_result">
+                      <input type="checkbox" name="" id="res" />
+                      <label htmlFor="res">
+                        Yes Russell! Upgrade My Order Now!
+                      </label>
+                    </div>
+
+                    <div>
+                      <p className="Hsection10_form_P">
+                        <span className="Hsection10_form_Span">
+                          One Time Offer - Only $37:
+                        </span>{' '}
+                        People always wonder: "What happens if I build a funnel,
+                        and it FLOPS?” Don’t worry (Most people's do the first
+                        time...)! At last year’s Funnel Hacking Live, I gave a
+                        special workshop called Funnel Audibles. It shows you a
+                        simple process to take ANY funnel that’s broken, and
+                        turn it from a ‘zero’ to a ‘HERO’! Click YES to get the
+                        training, plus the transcripts and companion workbook
+                        that will walk you through how to do a funnel audible on
+                        your own funnel now for just $37! (This offer is not
+                        available ANYWHERE else on the market!)
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={Handle_next}
+                    className="Hsection10_form_step1_button"
+                  >
+                    NEXT STEP
+                  </button>
+                </div>
+              )}
             </div>
 
             <img src="" alt="" />

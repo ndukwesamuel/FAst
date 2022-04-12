@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import bord2 from "../../images/bord2.png";
 
 const Hsection1 = () => {
@@ -22,7 +23,17 @@ const Hsection1 = () => {
     document.querySelector(".second").textContent = textSecond;
   };
 
-  setInterval(countDown, 1000);
+  useEffect(() => {
+    setInterval(countDown, 1000);
+
+    return () => {};
+  }, []);
+
+  // const [days, setDays] = useState(textDay);
+  // const [hours, setHours] = useState("");
+  // const [minutes, setMinutes] = useState("");
+  // const [seconds, setSeconds] = useState("");
+
   return (
     <>
       <div>
