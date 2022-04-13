@@ -10,6 +10,8 @@ import img2 from '../../images/OFA_Stack.png'
 import img3 from '../../images/funnel-auidible-BUMP-Graphic.png'
 
 import { BiDownArrow } from 'react-icons/bi'
+import { AiFillLock } from 'react-icons/ai'
+import img4 from '../../images/credit-only.png'
 
 // BiDownArrow
 
@@ -262,17 +264,46 @@ const Hsection10 = () => {
                       </p>
                     </div>
                   </div>
-                  <button
-                    onClick={Handle_next}
-                    className="Hsection10_form_step1_button"
-                  >
-                    NEXT STEP
+
+                  <div className="clearfixMain">
+                    <div className="clearfix ">
+                      <div className="pull-left ">Item</div>
+                      <div className="pull-right">amount</div>
+                    </div>
+
+                    <div className="clearfix1 ">
+                      <div className="pull-left1 ">
+                        ONE FUNNEL AWAY CHALLENGE - Digital Only
+                      </div>
+                      <div className="pull-right">$100.00</div>
+                    </div>
+
+                    <div>
+                      <div className="clearfix2  ">
+                        <div className="pull-left ">Order Total:</div>
+                        <div className="pull-right">$100.00</div>
+                      </div>
+                    </div>
+
+                    <table></table>
+                  </div>
+                  <button onClick={Handle_next} className=" sub_but">
+                    Yes! Start The One Funnel Away Challenge!
                   </button>
+                  <div className="lock_he10">
+                    <p>
+                      <AiFillLock />
+                      By providing us with your information you are consenting
+                      to the collection and use of your information in
+                      accordance with our
+                    </p>
+                  </div>
+                  <div>
+                    <img className="credit_card" src={img4} alt="" />
+                  </div>
                 </div>
               )}
             </div>
-
-            <img src="" alt="" />
           </form>
         </section>
       </div>

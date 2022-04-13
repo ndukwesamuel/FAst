@@ -1,27 +1,26 @@
-import { useState } from "react/cjs/react.development";
-import Footer_img from "../images/one-funnel-away_logo_funnel.png";
+import { useState } from 'react/cjs/react.development'
+import Footer_img from '../images/one-funnel-away_logo_funnel.png'
 
-import How from "../images/headline_ofa2-min.png"
-import "./Resgistration.css";
+import How from '../images/headline_ofa2-min.png'
+import './Resgistration.css'
 
-
-import LoginForm from "./LoginForm";
+import LoginForm from './LoginForm'
 
 const Resgistration = () => {
-  const [login, setLogin] = useState(false);
-  const [signUp, setSignUp] = useState(false);
+  const [login, setLogin] = useState(false)
+  const [signUp, setSignUp] = useState(false)
 
   const handle = () => {
-    console.log("working");
-    setLogin(true);
-    setSignUp(false);
-  };
+    console.log('working')
+    setLogin(true)
+    setSignUp(false)
+  }
 
   const handleSignUP = () => {
-    console.log("working");
-    setLogin(false);
-    setSignUp(true);
-  };
+    console.log('working')
+    setLogin(false)
+    setSignUp(true)
+  }
 
   return (
     <>
@@ -48,7 +47,6 @@ const Resgistration = () => {
             <div className="Resgistration_section_two_video">
               <video className="img-fluid" controls>
                 <source src="/Media/meditationss.mp4" type="video/mp4" />
-              
               </video>
             </div>
 
@@ -65,7 +63,7 @@ const Resgistration = () => {
         </section>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Resgistration;
+export default Resgistration

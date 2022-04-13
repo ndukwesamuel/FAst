@@ -85,6 +85,25 @@ body {
   color: var(--prymary-bg-clr);
 }
 
+/* .HSec1 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+} */
+
+/* .HSec1::after {
+  content: "";
+  background: url(./images/bkg_waves2.svg);
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+} */
+
 .section_one {
   background-color: var(--prymary-bg-clr);
   color: var(--clr-white);

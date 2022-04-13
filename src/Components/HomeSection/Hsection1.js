@@ -37,6 +37,7 @@ const Hsection1 = () => {
   return (
     <>
       <div>
+        <div className="HSec1"></div>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-7 Hsection1_row_1 ">
