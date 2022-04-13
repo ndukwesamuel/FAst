@@ -25,9 +25,9 @@ const Resgistration = () => {
   return (
     <>
       <div className="Resgistration">
-        <div className="Resgistration_logo_div">
+        {/* <div className="Resgistration_logo_div">
           <img className="img-fluid" src={Footer_img} alt="" />
-        </div>
+        </div> */}
 
         <section className="Resgistration_section">
           <div className="Resgistration_section_one">
